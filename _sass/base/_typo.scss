@@ -1,0 +1,71 @@
+// front-end is base on rem sizes;
+
+html {
+	// mobile
+	// background-color: blue;
+	font-size: 18px;
+  font-family: $font-regular;
+	color: $font-regular-color;
+
+	// iphone 6
+	@include min-screen(375px) {
+		font-size: 22px;
+	}
+
+	// ipad portrait
+	@include min-screen($screen-lg) {
+		font-size: 20px;
+	}
+
+	// ipad landscape / minibook
+	@include min-screen(1024px) {
+		font-size: 20px;
+	}
+
+	// notebook
+	@include min-screen(1200px) {
+		font-size: 20px;
+	}
+}
+
+h1 {
+	width: 100%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: normal;
+}
+
+p  {
+	font-size: $font-regular-size;
+	line-height: $font-regular-height;
+	margin-top: $padding-l;
+	margin-bottom: $padding-l;
+}
+
+p a,
+li a {
+  text-decoration: none;
+  color: $font-regular-color;
+
+	&::after {
+		content: "•";
+		margin-left: 0.25em;
+		transition: all 0.3s;
+	}
+
+	&:hover {
+		color: lighten($font-regular-color, 30%);
+
+		&::after {
+			margin-left: 0.6em;
+		}
+	}
+}
+
+.center {
+  text-align: center;
+}
+
+.font-secondary {
+  font-family: $font-secondary;
+}

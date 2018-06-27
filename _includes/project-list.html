@@ -1,0 +1,9 @@
+{%- for project in site.projects -%}
+  <a href="{{ project.url }}">
+    {%- for image in project.images -%}
+      <div class="project">
+        {%- include image.html -%}
+      </div>
+    {%- endfor -%}
+  </a>
+{%- endfor -%}

@@ -1,0 +1,13 @@
+<div class="swiper-container">
+  <div class="swiper-prev"></div>
+  <div class="swiper-next"></div>
+  <div class="swiper-wrapper">
+    {%- for image in page.images -%}
+      <div class="swiper-slide">
+        <div class="swiper-img">
+          {%- include image.html -%}
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>

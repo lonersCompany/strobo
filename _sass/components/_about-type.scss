@@ -1,0 +1,32 @@
+.about {
+  font-size: 14px;
+}
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 0.5em;
+  line-height: 1.25em;
+  text-transform: uppercase;
+}
+
+.title {
+  min-height: 10rem;
+}
+
+.about h3 {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+
+.about table {
+  th {
+    min-width: 5em;
+    text-align: left;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+    line-height: 1.25em;
+  }
+}

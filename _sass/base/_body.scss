@@ -1,0 +1,23 @@
+// html {
+//   width: 100%;
+//   background-color: #d2d2d2;
+// }
+
+body {
+  // max-width: $page-max-width;
+  margin: 0 auto;
+  //background-color: $backgroud-color;
+  animation: transitions 20s infinite;
+  //overflow: hidden;
+  //height: 10000px;
+}
+
+.project-name {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  color: white;
+  padding: 2em;
+  font-size: 2em;
+}

@@ -1,0 +1,54 @@
+/*Grid*/
+$grid-1: (100% / 3) * 1;
+$grid-2: (100% / 3) * 2;
+$grid-3: (100% / 3) * 3;
+
+
+$body-heigth: calc(100vh - 89px);
+
+$page-max-width: 1700px;
+
+/*Typo*/
+$font-regular: 'Cotham', helvetica, arial;
+$font-secondary: 'Trickster', helvetica, arial;
+$font-regular-size: 1rem;
+$font-regular-height: 1.25em;
+$font-table-height: 1.5em;
+$paragraf-max-width: 600px;
+
+/*MARGINS AND PADDINGS*/
+
+/*Typo*/
+$base-padding: 1.2rem;
+
+/*Colors*/
+$font-regular-color: rgba(0, 0, 0, 1); //rgba(0, 0, 0, 1); //rgba(240, 0, 0, 1);//
+$backgroud-color: rgba(0, 0, 0, 1); //rgba(0, 0, 200, 1); //rgba(240, 0, 0, 1); //rgba(50, 0, 190, 1);//
+$backgroud-color-transparent: transparent;
+$button-color: rgb(255, 150, 150);
+
+/*Borders*/
+$base-border: 1px solid $font-regular-color;
+
+/*Animation*/
+$click-animation-duration: 0.5s;
+
+// Screen max breakpoints
+$screen-xs:   320px;
+$screen-sm:   480px;
+$screen-md:   640px;
+$screen-lg:   992px;
+$screen-xl:   1200px;
+$screen-xxl:  1440px;
+$layout-brekpoint: $screen-md;
+
+$padding-m: 0.5em;
+$padding-s: 1em;
+$padding-l: 1.5em;
+$padding-xl: 2em;
+$padding-xxl: 3em;
+
+/*Media placeholder ratio*/
+
+$placeholder-height: 53vw;
+$placeholder-height-desktop: 40vw;

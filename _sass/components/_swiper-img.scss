@@ -1,0 +1,18 @@
+.swiper-img {
+  max-width: 350px;
+  margin: 0 auto;
+  //padding: 2rem;
+}
+
+.swiper-next,
+.swiper-prev {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 50%;
+  height: 100%;
+}
+
+.swiper-next {
+  right: 0;
+}

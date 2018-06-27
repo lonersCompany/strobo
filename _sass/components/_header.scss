@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  padding: $base-padding;
+  border-bottom: $base-border;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+
+  div:first-child {
+    width: 100%;
+  }
+}

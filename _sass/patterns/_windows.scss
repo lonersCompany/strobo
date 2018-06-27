@@ -1,0 +1,6 @@
+.windows {
+
+	@include min-screen($layout-brekpoint) {
+		display: flex;
+	}
+}

@@ -1,0 +1,7 @@
+.window {
+	position: relative;
+
+	@include min-screen($layout-brekpoint) {
+		width: $grid-1;
+	}
+}
