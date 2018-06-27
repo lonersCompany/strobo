@@ -48,7 +48,9 @@ collections:
   projects:
     output: true
 
-# Exclude from processing.
+
+
+# Exclude from processing. test
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
