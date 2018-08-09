@@ -1,0 +1,19 @@
+.caption {
+  z-index: 10000000;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  top: 50%;
+  opacity: 0;
+  transition: 0.5s ease-in;
+  transition-property: opacity, filter;
+  filter: blur(5px);
+}
+
+
+.project:hover .caption {
+  opacity: 1;
+  filter: blur(0);
+  //animation: shake $shake-time;
+}

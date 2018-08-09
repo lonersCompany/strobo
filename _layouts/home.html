@@ -3,12 +3,13 @@ layout: default
 ---
 <div class="windows">
   {%- for project in site.projects -%}
-  <div class="window">
+  <div class="window active">
       {%- for image in project.images -%}
         <div class="project">
-              <a href="{{ project.url }}">
-          {%- include image.html -%}
-              </a>
+          <a href="{{ project.url }}">
+            {%- include image.html -%}
+            {%- include caption.html -%}
+          </a>
         </div>
       {%- endfor -%}
   </div>

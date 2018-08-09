@@ -6,14 +6,13 @@
   background-color: black;
   transition: background-color 0.1s ease-in;
 
+
   img {
     width: 100%;
     height: $body-heigth;
     box-sizing: border-box;
     object-fit: cover;
     object-position: top center;
-    //transition: opacity 0.2s ease-in;
-    //opacity: 0.2;
   }
 
   &.active {
@@ -35,13 +34,4 @@
 	opacity: 1;
 	-webkit-animation: flash 1.5s;
 	animation: flash 1.5s;
-}
-
-@-webkit-keyframes flash {
-	0% {
-		opacity: .2;
-	}
-	100% {
-		opacity: 1;
-	}
 }

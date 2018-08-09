@@ -7,6 +7,8 @@
 @import "utils/_media";
 @import "utils/_reset";
 @import "utils/_variables";
+@import "utils/_animations";
+
 
 @import "base/_body";
 @import "base/_typo";
@@ -20,6 +22,7 @@
 @import "components/_plain-link";
 @import "components/_goback";
 @import "components/_about-type";
+@import "components/_caption";
 
 @import "patterns/_windows";
 @import "patterns/_window";

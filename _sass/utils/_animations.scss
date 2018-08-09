@@ -2,3 +2,36 @@
     0% {transform: translateY(0);}
     100% {transform: translateY(100%);}
 }
+
+@keyframes shake {
+  0% {transform: translateX($shake-size)}
+  20% {transform: translateX(-$shake-size)}
+  40% {transform: translateX($shake-size)}
+  60% {transform: translateX(-$shake-size)}
+  80% {transform: translateX($shake-size)}
+  90% {transform: translateX(-$shake-size)}
+  100% {transform: translateX($shake-size)}
+}
+
+@keyframes flash {
+	0% {
+		opacity: .5;
+    filter: blur(5px);
+	}
+	100% {
+		opacity: 1;
+    filter: blur(0);
+	}
+}
+
+// @keyframes strobo {
+//   0% {background-color: $bc-color}
+//   10% {background-color: $bc-color}
+//   60% {background-color: $bc-color-animation}
+//   100% {background-color: $bc-color}
+// }
+//
+// @keyframes strobotouch {
+//   0% {background-color: rgb(100, 0 , 100)}
+//   100% {background-color: $bc-color-animation}
+// }
