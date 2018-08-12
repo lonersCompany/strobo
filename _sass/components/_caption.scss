@@ -5,15 +5,26 @@
   text-align: center;
   color: white;
   top: 50%;
-  opacity: 0;
   transition: 0.5s ease-in;
   transition-property: opacity, filter;
+  opacity: 0;
   filter: blur(5px);
-}
 
+  .project.active & {
+    opacity: 1;
+    filter: blur(0);
+  }
 
-.project:hover .caption {
-  opacity: 1;
-  filter: blur(0);
-  //animation: shake $shake-time;
+  @media(min-width: $screen-md) {
+
+    .project.active & {
+      opacity: 0;
+      filter: blur(5px);
+    }
+
+    .project:hover & {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
 }

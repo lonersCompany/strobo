@@ -5,7 +5,7 @@ layout: default
   {%- for project in site.projects -%}
   <div class="window active">
       {%- for image in project.images -%}
-        <div class="project">
+        <div class="project {{ project.col }}">
           <a href="{{ project.url }}">
             {%- include image.html -%}
             {%- include caption.html -%}

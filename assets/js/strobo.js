@@ -8,32 +8,31 @@
   const ElementArray = Array.from(collumsEl);
   const cadence = 700;
 
-
-  const strobo = (elements) => {
-
-    const activeClass = (x) => x.classList.contains('active');
-    const activeElements = ElementArray.filter(activeClass);
-    const ColN = randomNumber(activeElements.length);
-    const childs = Array.from(activeElements[ColN].childNodes);
-    const activeChild = childs.filter(activeClass).forEach(function(element) {element.classList.toggle('active')});
-    const ProjectN = randomNumber(childs.length);
-    const ProjectEl = childs[ProjectN].classList.toggle('active');
+  var makeNewNumber = (array) => {
+    const Col =  Array.from(array[randomNumber(array.length)].childNodes);
+    const newElement = Col[randomNumber(Col.length)];
+    return newElement
   }
 
-  //strobo(collumsEl);
 
-  const intervalEventListener = function(cadence) {
-    let animation = setInterval(function(){
-      strobo(ElementArray);
-    }, cadence);
-  }
+  var numberChanger = undefined; // TODO: nefined like first element
 
-  const scrollEventListener = function(element) {
-    element.addEventListener("mousewheel", function() {
-      strobo(ElementArray);
-    }, false);
-  }
+  windowEl.addEventListener("mousewheel", function() {
+
+    numberChanger = (function (oldElement, array) {
+
+      var newElement = makeNewNumber(array);
+
+      print()
+
+      if (oldElement) toggleClass(oldElement, 'active');
+      toggleClass(newElement, 'active')
+
+      return newElement;
+
+    }(numberChanger, ElementArray));
+
+  }, false);
+
 
   hoverEvent(ElementArray, 'active');
-  intervalEventListener(cadence);
-  scrollEventListener(windowEl);

@@ -38,7 +38,7 @@ let toggleClass = function(element, className) {
 };
 
 // RANDOM NUMBER
-const randomNumber = (maxNumber) => Math.floor((Math.random() * maxNumber) + 0)
+const randomNumber = (maxNumber) => Math.floor((Math.random() * maxNumber) + 0);
 
 
 // PRINT

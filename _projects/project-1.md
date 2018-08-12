@@ -3,7 +3,9 @@ layout: project
 title: Project title 1
 # folder: project-1
 # collection: projects
-order: 0;
+# collection: projects
+col: col-a
+order: 0
 
 images:
   - src: jakub-svoboda-1

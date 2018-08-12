@@ -3,6 +3,7 @@ layout: project
 title: Project title 3
 # folder: project-1
 # collection: projects
+col: col-b
 order: 2;
 
 images:
