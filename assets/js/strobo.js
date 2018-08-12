@@ -41,10 +41,6 @@ function runStrobo() {
   }(numberChanger, ElementArray));
 }
 
-// windowEl.addEventListener("mousewheel", function() {
-//   runStrobo();
-// }, false);
-
 // var loop = function (flag) {
 //
 //     var rand = Math.floor((Math.random() * 200) + 100);
@@ -60,44 +56,59 @@ function runStrobo() {
 
 var loop = function () {
   // private
-  return begin = setInterval(function() {
-    runStrobo();
-  }, 700);
+  // return begin = setInterval(function() {
+  //   runStrobo();
+  // }, 700);
 }; loop()
 
-if(mobile()) {
-print('mbile')
+// if(mobile()) {
+//
+//   windowEl.addEventListener("touchstart", function() {
+//     print('down')
+//     clearInterval(begin);
+//   }, false);
+//
+//   windowEl.addEventListener("touchend", function() {
+//     print('up')
+//     loop();
+//   }, false);
+//
+//   windowEl.addEventListener("mousewheel", function() {
+//     runStrobo();
+//   }, false);
+//
+// } else {
+//
+//   windowEl.addEventListener("mousewheel", function() {
+//     runStrobo();
+//   }, false);
+//
+//   windowEl.addEventListener("mousedown", function() {
+//     clearInterval(begin);
+//   }, false);
+//
+//   windowEl.addEventListener("mouseup", function() {
+//     loop();
+//   }, false);
+// }
 
-  windowEl.addEventListener("touchstart", function() {
-    print('down')
-    clearInterval(begin);
-  }, false);
 
-  windowEl.addEventListener("touchend", function() {
-    print('up')
-    loop();
-  }, false);
-
-} else {
-
-  windowEl.addEventListener("mousedown", function() {
-
-
-    clearInterval(begin);
-  }, false);
-
-  windowEl.addEventListener("mouseup", function() {
-
-    loop();
-  }, false);
-
-}
-
-
-
-
-
-
+//var addMouseWheelEventListener = function (scrollHandler) {
+  if (window.addEventListener) {
+    // IE9+, Chrome, Safari, Opera
+    window.addEventListener("mousewheel", function() {
+      runStrobo();
+    }, false);
+    // Firefox
+    window.addEventListener("DOMMouseScroll", function() {
+      runStrobo();
+    }, false);
+  } else {
+    // // IE 6/7/8
+    window.attachEvent("onmousewheel", function() {
+      runStrobo();
+    }, false);
+  }
 
     // windowEl.addEventListener("touchend", function() {
     //   loop();
