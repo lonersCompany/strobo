@@ -1,5 +1,11 @@
 "use strict";
 
+const config = {
+  breakPoints: {
+    mobile: 640,
+  },
+}
+
 // ADDCLASS
 let addClass = function(element, addClassName){
   if (element.classList) {
@@ -39,7 +45,6 @@ let toggleClass = function(element, className) {
 
 // RANDOM NUMBER
 const randomNumber = (maxNumber) => Math.floor((Math.random() * maxNumber) + 0);
-
 
 // PRINT
 const print = (x) => console.log(x);
