@@ -4,18 +4,10 @@ title: Project title 3
 col: col-c
 order: 3;
 images:
-- src: stroboEXIST
-  alt: Název projektu pro vyhledávače
-- src: jakub-svoboda-11
-  alt: 
-- src: jakub-svoboda-12
-  alt: 
-- src: jakub-svoboda-13
-  alt: 
-- src: jakub-svoboda-14
-  alt: 
-- src: jakub-svoboda-15
-  alt: 
+- "/img/stroboEXIST.jpg"
+- "/img/stroboHATDOWN.jpg"
+- "/img/stroboNEWALIENS.jpg"
+- "/img/stroboSOTC.jpg"
 name: "/strobo/assets/img/stroboEXIST.jpg"
 
 ---
