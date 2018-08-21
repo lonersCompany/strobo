@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Project title 3
+title: Project title 2
 col: col-b
 order: 2;
 images:
