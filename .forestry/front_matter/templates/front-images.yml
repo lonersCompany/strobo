@@ -8,3 +8,5 @@ fields:
   label: label
   name: name
   description: description
+pages:
+- _projects/project-3.md
