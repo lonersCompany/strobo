@@ -20,7 +20,7 @@ sections:
   label: About
   create: all
   match: "**/*"
-upload_dir: strobo/assets/img
+upload_dir: assets/img
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
