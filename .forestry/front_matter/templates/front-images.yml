@@ -4,11 +4,14 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  default: ''
+  default: Project-title
   name: title
   label: Project name
 - type: image_gallery
-  default: []
+  default:
+  - "/img/stroboHATDOWN.jpg"
+  - "/img/stroboNEWALIENS.jpg"
+  - "/img/stroboSOTC.jpg"
   name: images
   label: project images
 - type: select
