@@ -4,10 +4,11 @@ title: Project title 3
 col: col-c
 order: 3;
 images:
-- "/img/stroboEXIST.jpg"
-- "/img/stroboHATDOWN.jpg"
-- "/img/stroboNEWALIENS.jpg"
-- "/img/stroboSOTC.jpg"
+- "/jakub-svoboda-8.jpg"
+- "/jakub-svoboda-14.jpg"
+- "/jakub-svoboda-7.jpg"
+- "/jakub-svoboda-17.jpg"
+- "/stroboJAKUBPOLANKA.jpg"
 name: "/strobo/assets/img/stroboEXIST.jpg"
 
 ---
