@@ -1,0 +1,10 @@
+---
+label: front-images
+hide_body: false
+is_partial: false
+fields:
+- type: file
+  default: "/strobo/assets/img/stroboEXIST.jpg"
+  label: label
+  name: name
+  description: description
