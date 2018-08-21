@@ -3,10 +3,12 @@ label: front-images
 hide_body: false
 is_partial: false
 fields:
-- type: file
-  default: "/strobo/assets/img/stroboEXIST.jpg"
-  label: label
-  name: name
-  description: description
+- type: image_gallery
+  default:
+  - "/strobo/assets/img/stroboSOTC.jpg"
+  - "/strobo/assets/img/stroboNEWALIENS.jpg"
+  - "/strobo/assets/img/stroboHATDOWN.jpg"
+  name: images
+  label: project images
 pages:
 - _projects/project-3.md
