@@ -3,12 +3,25 @@ label: front-images
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  default: ''
+  name: title
+  label: Project name
 - type: image_gallery
-  default:
-  - "/strobo/assets/img/stroboSOTC.jpg"
-  - "/strobo/assets/img/stroboNEWALIENS.jpg"
-  - "/strobo/assets/img/stroboHATDOWN.jpg"
+  default: []
   name: images
   label: project images
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - col-a
+    - col-b
+    - col-c
+  label: Project column
+  name: col
+  description: Chose front-page column
+  default: col-a
 pages:
 - _projects/project-3.md
