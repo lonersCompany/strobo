@@ -4,7 +4,7 @@ title: Project title 3
 col: col-c
 order: 3;
 images:
-- src: nazev-obrazku
+- src: stroboEXIST
   alt: Název projektu pro vyhledávače
 - src: jakub-svoboda-11
   alt: 
