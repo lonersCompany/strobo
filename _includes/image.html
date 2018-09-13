@@ -2,8 +2,6 @@
   src="{{ "/assets/img/" | relative_url }}{{ image.src }}.jpg"
   alt = "{{ image.alt }}" />
 
- -->
-
 <img
 srcset="
 {{ '/assets/img/' | relative_url }}/w_500{{ .image }} 500w,
@@ -12,3 +10,11 @@ srcset="
 {{ '/assets/img/' | relative_url }}/w_1420{{ .image }} 1420w"
 src="{{ '/assets/img/' | relative_url }}/w_500{{ .image }}"
  />
+
+
+ -->
+<ul>
+  <li>{{ "/assets/img/" | relative_url }}</li>
+  <li>{{ image.src }}</li>
+  <li>{{ image.alt }}</li>
+</ul>
