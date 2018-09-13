@@ -1,3 +1,14 @@
-<img
+<!-- <img
   src="{{ "/assets/img/" | relative_url }}{{ image.src }}.jpg"
   alt = "{{ image.alt }}" />
+
+ -->
+
+<img
+srcset="
+{{ '/assets/img/' | relative_url }}/w_500{{ .image }} 500w,
+{{ '/assets/img/' | relative_url }}/w_710{{ .image }} 710w,
+{{ '/assets/img/' | relative_url }}/w_1000{{ .image }} 1000w,
+{{ '/assets/img/' | relative_url }}/w_1420{{ .image }} 1420w"
+src="{{ '/assets/img/' | relative_url }}/w_500{{ .image }}"
+ />
