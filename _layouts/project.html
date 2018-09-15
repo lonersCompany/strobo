@@ -3,11 +3,18 @@ layout: default
 ---
 <div class="goback">
   <h6 class="center">
-    {{ page.title }}
+    Go back
   </h6>
 </div>
 
 
 {%- include gallery-swiper.html -%}
 
-{{ content }}
+<div class="text-block">
+  <h2 class="center">
+    {{ page.title }}
+  </h2>
+  {{ content }}
+</div>
+
+{%- include footer.html -%}

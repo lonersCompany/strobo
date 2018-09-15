@@ -1,0 +1,51 @@
+.hero-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  z-index: -1;
+
+  .info-is-active &,
+  .info-is-activated & {
+    z-index: 0;
+  }
+}
+
+.homepage {
+  overflow: hidden;
+
+  &.info-is-activated {
+    overflow: visible;
+  }
+}
+
+.info {
+  opacity: 0;
+  filter: blur(5px);
+}
+
+.strobo-gallery,
+.info {
+  transition: $transition-long;
+}
+
+.info-is-active {
+
+  .info {
+    opacity: 0.2;
+  }
+}
+
+.info-is-activated {
+
+  .strobo-gallery {
+    filter: blur(15px);
+  }
+
+  .info {
+    opacity: 1;
+    filter: blur(0);
+  }
+}

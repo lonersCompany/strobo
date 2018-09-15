@@ -15,6 +15,7 @@
 @import "base/_img";
 @import "base/_paragraf";
 @import "base/_fonts";
+@import "base/_text-block";
 
 @import "components/_project-image";
 @import "components/_header";
@@ -23,8 +24,10 @@
 @import "components/_goback";
 @import "components/_about-type";
 @import "components/_caption";
+@import "components/_info-is-active";
+@import "components/_navigation";
 
 @import "patterns/_windows";
 @import "patterns/_window";
 @import "patterns/_info";
-@import "patterns/_about";
+@import "patterns/_footer";

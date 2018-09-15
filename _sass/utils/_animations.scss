@@ -1,3 +1,17 @@
+@keyframes color-transition {
+	0% {
+		background: rgba(88, 70, 58, 1);
+	}
+
+  30% {
+		background: rgba(48, 30, 28, 1);
+	}
+
+  100% {
+		background: rgba(88, 70, 58, 1);
+	}
+}
+
 @keyframes hoverdot {
     0% {transform: translateY(0);}
     100% {transform: translateY(100%);}

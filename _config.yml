@@ -44,10 +44,11 @@ exclude:
 
 # collections setings
 collections:
-  about:
   projects:
     output: true
 
+  about:
+    output: false
 
 
 # Exclude from processing. test

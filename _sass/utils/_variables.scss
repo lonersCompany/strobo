@@ -7,7 +7,7 @@ $shake-size: 0.5rem;
 $shake-time: 0.5s;
 
 
-$body-heigth: calc(100vh - 89px);
+$body-heigth: 100vh;//calc(100vh - 89px);
 
 $page-max-width: 1700px;
 
@@ -18,11 +18,12 @@ $font-regular-size: 1rem;
 $font-regular-height: 1.25em;
 $font-table-height: 1.5em;
 $paragraf-max-width: 600px;
-
-/*MARGINS AND PADDINGS*/
-
-/*Typo*/
 $base-padding: 1.2rem;
+
+/*Animation*/
+$transition-base: all 0.3s ease-in;
+$transition-long: all 0.5s ease-in;
+$click-animation-duration: 0.5s;
 
 /*Colors*/
 $font-regular-color: rgba(0, 0, 0, 1); //rgba(0, 0, 0, 1); //rgba(240, 0, 0, 1);//
@@ -33,8 +34,6 @@ $button-color: rgb(255, 150, 150);
 /*Borders*/
 $base-border: 1px solid $font-regular-color;
 
-/*Animation*/
-$click-animation-duration: 0.5s;
 
 // Screen max breakpoints
 $screen-xs:   320px;

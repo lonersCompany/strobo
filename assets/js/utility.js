@@ -50,9 +50,29 @@ const randomNumber = (maxNumber) => Math.floor((Math.random() * maxNumber) + 0);
 const print = (x) => console.log(x);
 
 // Create Toggle button
-let toggleButton = function(element, eventType, activeClass) {
-  element.addEventListener(eventType, function() {
-    toggleClass(this, activeClass);
+const toggleButton = function(agetElement, activElement, eventType, activeClass) {
+
+  if (!activElement) {
+    let activElement = this;
+  }
+
+  agetElement.addEventListener(eventType, function() {
+    toggleClass(activElement, activeClass);
+  }, false)
+};
+
+// Hover
+const hoverButton = function(agetElement, activElement, activeClass) {
+
+  if (!activElement) {
+    let activElement = this;
+  }
+
+  agetElement.addEventListener('mouseenter', function() {
+    addClass(activElement, activeClass);
+  }, false)
+  agetElement.addEventListener('mouseleave', function() {
+    removeClass(activElement, activeClass);
   }, false)
 };
 

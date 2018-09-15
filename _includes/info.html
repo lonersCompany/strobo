@@ -1,17 +1,9 @@
-<div id="info" class="info">
-  <div class="header">
-    <div class="">
-      <h1>RA</h1>
-    </div>
-    <div class="">
-      <h1>Info</h1>
-    </div>
-  </div>
-  <div class="about">
-    {% for list in site.about %}
-      <div>
-        {{ list.output }}
-      </div>
-    {% endfor %}
+<div class="info">
+  <div class="text-block">
+      {% for list in site.about %}
+        <section>
+          {{ list.content }}
+        </section>
+      {% endfor %}
   </div>
 </div>

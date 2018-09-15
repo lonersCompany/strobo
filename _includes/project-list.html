@@ -1,9 +1,15 @@
-{%- for project in site.projects -%}
-  <a href="{{ project.url }}">
-    {%- for image in project.images -%}
-      <div class="project">
-        {%- include image.html -%}
-      </div>
-    {%- endfor -%}
-  </a>
-{%- endfor -%}
+<div class="project-list">
+  <div class="text-block">
+    <ul>
+      {%- for project in site.projects -%}
+        <li>
+            <h5>
+              <a href="{{ page.url | relative_url }}{{ project.url }}">
+                <span>{{ project.order }}</span><span>{{ project.title }}</span><span>{{ project.year }}</span>
+              </a>
+            </h5>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>

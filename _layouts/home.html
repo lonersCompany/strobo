@@ -1,17 +1,17 @@
----
-layout: default
----
-<div class="windows">
-  {%- for project in site.projects -%}
-  <div class="window active">
-      {%- for image in project.images -%}
-        <div class="project {{ project.col }}">
-          <!-- <a href="{{ project.url }}"> -->
-            {%- include image.html -%}
-            {%- include caption.html -%}
-          <!-- </a> -->
-        </div>
-      {%- endfor -%}
-  </div>
-  {%- endfor -%}
-</div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="homepage">
+
+    {%- include navigation.html -%}
+    <div class="hero-wrapper">
+      {%- include gallery-strobo.html -%}
+    </div>
+    {%- include info.html -%}
+    {%- include project-list.html -%}
+
+    {%- include scripts.html -%}
+  </body>
+</html>
