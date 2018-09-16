@@ -25,10 +25,10 @@ github_username:  schitacci
 
 # Build settings
 markdown: kramdown
-#theme: minima
+theme: minima
 
-#plugins:
-#  - jekyll-feed
+plugins:
+ - jekyll-feed
 
 # styles
 sass:
