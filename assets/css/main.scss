@@ -1,8 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@import "patterns/_swiper";
-
 @import "utils/_media-queries";
 @import "utils/_media";
 @import "utils/_reset";
@@ -16,6 +14,7 @@
 @import "base/_paragraf";
 @import "base/_fonts";
 @import "base/_text-block";
+@import "base/_colors";
 
 @import "components/_project-image";
 @import "components/_header";
@@ -26,6 +25,7 @@
 @import "components/_caption";
 @import "components/_info-is-active";
 @import "components/_navigation";
+@import "components/_swiper-pagination-bullet";
 
 @import "patterns/_windows";
 @import "patterns/_window";

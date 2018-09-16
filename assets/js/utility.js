@@ -6,6 +6,9 @@ const config = {
   },
 }
 
+// mobile return if true if
+const isMobile = () => document.body.clientWidth < config.breakPoints.mobile
+
 // ADDCLASS
 let addClass = function(element, addClassName){
   if (element.classList) {

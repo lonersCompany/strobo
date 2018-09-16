@@ -13,6 +13,10 @@
   }
 }
 
+.project-list {
+  display: none;
+}
+
 .homepage {
   overflow: hidden;
 
@@ -23,6 +27,7 @@
 
 .info {
   opacity: 0;
+  display: none;
   filter: blur(5px);
 }
 
@@ -34,6 +39,7 @@
 .info-is-active {
 
   .info {
+    display: block;
     opacity: 0.2;
   }
 }
@@ -45,6 +51,7 @@
   }
 
   .info {
+    display: block;
     opacity: 1;
     filter: blur(0);
   }

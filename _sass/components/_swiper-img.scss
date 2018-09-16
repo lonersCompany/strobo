@@ -7,6 +7,10 @@
   //padding: 2rem;
 }
 
+.swiper-container {
+  z-index: 0;
+}
+
 .swiper-next,
 .swiper-prev {
   position: absolute;
@@ -18,4 +22,9 @@
 
 .swiper-next {
   right: 0;
+  cursor: e-resize;
+}
+
+.swiper-prev {
+  cursor: w-resize;
 }

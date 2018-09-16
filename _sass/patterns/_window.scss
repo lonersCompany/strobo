@@ -1,5 +1,10 @@
 .window {
 	position: relative;
+	z-index: 0;
+
+	&.active {
+		z-index: 1;
+	}
 
 	@include min-screen($layout-brekpoint) {
 		width: $grid-1;
