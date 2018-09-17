@@ -4,16 +4,21 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  default: Project-title
+  default: C-2903
   name: title
-  label: Project name
+  label: Název projektu
 - type: image_gallery
   default:
-  - "/img/stroboHATDOWN.jpg"
-  - "/img/stroboNEWALIENS.jpg"
+  - "/jakub-svoboda-20.jpg"
+  - "/jakub-svoboda-22.jpg"
   - "/img/stroboSOTC.jpg"
   name: images
-  label: project images
+  label: Fotky
+  description: Fotky pro zobrazení v galeriích
+- type: number
+  label: Číslo projetů
+  name: order
+  default: '45'
 - type: select
   config:
     source:
@@ -22,10 +27,17 @@ fields:
     - col-a
     - col-b
     - col-c
-  label: Project column
+  label: Sloupec v galerii
   name: col
-  description: Chose front-page column
+  description: Výber si sloupec
   default: col-a
+- type: datetime
+  name: year
+  label: rok
+  default: 2018-09-29 00:00:00 +0200
+  config:
+    date_format: MM/DD/YYYY
+    display_utc: true
 pages:
 - _projects/issues.md
 - _projects/project-2.md
