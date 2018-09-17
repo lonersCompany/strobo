@@ -10,6 +10,8 @@ images:
 - "/stroboSENSE2.jpg"
 col: col-c
 date: 2018-09-17 21:37:47 +0200
+order: 48
+year: 2018-09-19 02:00:00 +0200
 
 ---
 Popisek
