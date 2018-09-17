@@ -27,6 +27,7 @@ fields:
   description: Chose front-page column
   default: col-a
 pages:
+- _projects/issues.md
 - _projects/project-2.md
 - _projects/project-1.md
 - _projects/project-3.md
