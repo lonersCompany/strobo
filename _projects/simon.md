@@ -8,6 +8,5 @@ order: 45
 col: col-a
 year: 2018-09-29 00:00:00 +0200
 date: 2018-09-21 16:51:28 +0200
-published: false
 
 ---
