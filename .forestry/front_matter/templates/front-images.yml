@@ -40,6 +40,7 @@ fields:
     display_utc: true
 pages:
 - _projects/jaspit.md
+- _projects/jaspit.md
 - _projects/simon.md
 - _projects/issues.md
 - _projects/project-2.md
