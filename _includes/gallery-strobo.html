@@ -1,6 +1,6 @@
 <div class="strobo-gallery windows">
 
-  <div class="window">
+  <div class="window stop">
     {%- for project in site.projects -%}
       {% if project.col == "col-a" %}
         {%- for image in project.images -%}
@@ -14,7 +14,7 @@
       {% endif %}
     {%- endfor -%}
   </div>
-  <div class="window">
+  <div class="window stop">
     {%- for project in site.projects -%}
       {% if project.col == "col-b" %}
         {%- for image in project.images -%}
@@ -28,7 +28,7 @@
       {% endif %}
     {%- endfor -%}
   </div>
-  <div class="window">
+  <div class="window stop">
     {%- for project in site.projects -%}
       {% if project.col == "col-c" %}
         {%- for image in project.images -%}
