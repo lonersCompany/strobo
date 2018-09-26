@@ -2,7 +2,7 @@
 layout: project
 title: Balance your fears
 col: col-a
-order: 42
+order: '01'
 year: 2018
 images:
 - "/jakub-svoboda-1.jpg"
