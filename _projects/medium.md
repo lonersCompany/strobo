@@ -5,9 +5,9 @@ images:
 - "/stroboMEDIUM2.jpg"
 - 
 order: 45
-col: col-a
-year: 2018-09-29 00:00:00 +0200
-date: 2018-09-26 18:59:56 +0200
+col: col-b
+year: 2018-09-28 22:00:00 +0000
+date: 2018-09-26 16:59:56 +0000
 
 ---
 This collection was made during the Studio Vortex Residency in France with leader Antoine d'agata. I was trying to work like a Medium which were licking, depicting, asking, performing and living as well.
