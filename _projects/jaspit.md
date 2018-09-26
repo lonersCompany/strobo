@@ -4,7 +4,7 @@ images:
 - "/stroboJASPIT.jpg"
 - 
 order: '05'
-col: col-a
+col: col-c
 year: 2018-09-29 00:00:00 +0200
 date: 2018-09-26 18:50:04 +0200
 
