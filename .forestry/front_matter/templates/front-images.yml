@@ -36,7 +36,6 @@ fields:
     date_format: MM/DD/YYYY
     display_utc: true
 pages:
-- _projects/simon.md
 - _projects/medium.md
 - _projects/millenial-gender.md
 - _projects/mass.md
