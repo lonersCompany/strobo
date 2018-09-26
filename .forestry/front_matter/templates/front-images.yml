@@ -8,10 +8,7 @@ fields:
   name: title
   label: Název projektu
 - type: image_gallery
-  default:
-  - "/jakub-svoboda-20.jpg"
-  - "/jakub-svoboda-22.jpg"
-  - "/img/stroboSOTC.jpg"
+  default: []
   name: images
   label: Fotky
   description: Fotky pro zobrazení v galeriích
