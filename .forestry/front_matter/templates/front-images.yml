@@ -31,16 +31,15 @@ fields:
 - type: datetime
   name: year
   label: rok
-  default: 2018-09-29 00:00:00 +0200
+  default: 2018-09-28 22:00:00 +0000
   config:
     date_format: MM/DD/YYYY
     display_utc: true
 pages:
-- _projects/medium.md
 - _projects/jaspit.md
+- _projects/medium.md
 - _projects/millenial-gender.md
 - _projects/mass.md
 - _projects/lost-symbiosis.md
 - _projects/lgbtq-families.md
 - _projects/kamasutra.md
-- _projects/jaspit.md
