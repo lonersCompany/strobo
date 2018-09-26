@@ -39,6 +39,7 @@ fields:
     date_format: MM/DD/YYYY
     display_utc: true
 pages:
+- _projects/kamasutra.md
 - _projects/jaspit.md
 - _projects/jaspit.md
 - _projects/simon.md
