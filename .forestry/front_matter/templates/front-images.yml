@@ -36,6 +36,7 @@ fields:
     date_format: MM/DD/YYYY
     display_utc: true
 pages:
+- _projects/mass.md
 - _projects/lost-symbiosis.md
 - _projects/lgbtq-families.md
 - _projects/kamasutra.md
