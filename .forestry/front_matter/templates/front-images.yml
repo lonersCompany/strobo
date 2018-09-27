@@ -1,21 +1,21 @@
 ---
-label: front-images
+label: Project
 hide_body: false
 is_partial: false
 fields:
 - type: text
-  default: C-2903
+  default: Název
   name: title
   label: Název projektu
+- type: image_gallery
+  name: front-page-images
+  label: Fotky pro front page
+  description: Fotky pro zobrazení ve Strobo Galerii
 - type: image_gallery
   default: []
   name: images
   label: Fotky
-  description: Fotky pro zobrazení v galeriích
-- type: number
-  label: Číslo projetů
-  name: order
-  default: '45'
+  description: Všechny fotky projektu
 - type: select
   config:
     source:
@@ -28,13 +28,10 @@ fields:
   name: col
   description: Výber si sloupec
   default: col-a
-- type: datetime
-  name: year
-  label: rok
-  default: 2018-09-28 22:00:00 +0000
-  config:
-    date_format: MM/DD/YYYY
-    display_utc: true
+- type: number
+  label: Číslo projetů
+  name: order
+  default: '45'
 - type: text
   name: layout
   label: Layout
@@ -44,8 +41,8 @@ fields:
     required: true
   default: project
 pages:
-- _projects/medium.md
 - _projects/mass.md
+- _projects/medium.md
 - _projects/jaspit.md
 - _projects/millenial-gender.md
 - _projects/lost-symbiosis.md
