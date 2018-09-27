@@ -1,9 +1,8 @@
 <div class="strobo-gallery windows">
-
   <div class="window stop">
     {%- for project in site.projects -%}
       {% if project.col == "col-a" %}
-        {%- for image in project.images -%}
+        {%- for image in project.front-page-images -%}
           <div class="project {{ project.col }}">
             <a href="{{ site.url | relative_url }}{{ project.url }}">
               {%- include image.html -%}
@@ -17,7 +16,7 @@
   <div class="window stop">
     {%- for project in site.projects -%}
       {% if project.col == "col-b" %}
-        {%- for image in project.images -%}
+        {%- for image in project.front-page-images -%}
           <div class="project {{ project.col }}">
             <a href="{{ page.url | relative_url }}{{ project.url }}">
               {%- include image.html -%}
@@ -31,7 +30,7 @@
   <div class="window stop">
     {%- for project in site.projects -%}
       {% if project.col == "col-c" %}
-        {%- for image in project.images -%}
+        {%- for image in project.front-page-images -%}
           <div class="project {{ project.col }}">
             <a href="{{ page.url | relative_url }}{{ project.url }}">
               {%- include image.html -%}
@@ -42,5 +41,4 @@
       {% endif %}
     {%- endfor -%}
   </div>
-
 </div>
