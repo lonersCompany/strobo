@@ -41,5 +41,6 @@ fields:
     required: true
   default: project
 pages:
+- _projects/c-5272.md
 - _projects/b-12735.md
 - _projects/nazev.md
