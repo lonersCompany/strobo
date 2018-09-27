@@ -2,6 +2,8 @@
 layout: project
 title: MASS
 images:
+- "/v1538060226/stroboBLCK.jpg"
+- "/v1538060226/stroboHATDOWN.jpg"
 - "/v1538060225/stroboILOVEYOUROUTFIT.jpg"
 order: 45
 col: col-a
