@@ -28,13 +28,6 @@ fields:
   name: col
   description: Výber si sloupec
   default: col-a
-- type: datetime
-  name: year
-  label: rok
-  default: 2018-09-28 22:00:00 +0000
-  config:
-    date_format: MM/DD/YYYY
-    display_utc: true
 - type: text
   name: layout
   label: Layout
@@ -43,6 +36,10 @@ fields:
   config:
     required: true
   default: project
+- type: image_gallery
+  name: front-page-images
+  label: Front-page
+  description: Fotky pro zobrazení ve Strobo Galerii
 pages:
 - _projects/mass.md
 - _projects/medium.md
