@@ -2,7 +2,8 @@
 layout: project
 title: MEDIUM
 images:
-- "/jakub-svoboda-7.jpg"
+- "/v1538060225/stroboSTATEMENTS2.jpg"
+- "/v1538060225/stroboBACKSTAGE.jpg"
 - "/stroboMEDIUM2.jpg"
 order: 45
 col: col-b
