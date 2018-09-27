@@ -1,3 +1,10 @@
- <img
-  src="{{ "/assets/img" | relative_url }}{{ image }}"
-  alt = "" />
+<img
+srcset="
+{{ site.img_url }}w_500{{ image }} 500w,
+{{ site.img_url }}w_710{{ image }} 710w,
+{{ site.img_url }}w_1000{{ image }} 1000w,
+{{ site.img_url }}w_1420{{ image }} 1420w"
+src="{{ site.img_url }}w_500{{ image }}"
+sizes="(min-width: 640px) 33vw, 100vw"
+alt="{{ project.title }}, Jakub RA"
+ />

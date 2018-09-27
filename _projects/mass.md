@@ -1,4 +1,5 @@
 ---
+layout: project
 title: MASS
 images:
 - "/jakub-svoboda-22.jpg"

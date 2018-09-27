@@ -35,6 +35,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# images and cloudinary
+img_url: "https://res.cloudinary.com/dhxmg9p4i/image/upload/"
+
 # excludes
 exclude:
   - package.json

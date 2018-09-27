@@ -5,7 +5,7 @@
       {% if project.col == "col-a" %}
         {%- for image in project.images -%}
           <div class="project {{ project.col }}">
-            <a href="{{ page.url | relative_url }}{{ project.url }}">
+            <a href="{{ site.url | relative_url }}{{ project.url }}">
               {%- include image.html -%}
               {%- include caption.html -%}
             </a>

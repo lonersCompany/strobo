@@ -1,0 +1,9 @@
+.index-gallery {
+  display: flex;
+  flex-wrap: wrap;
+
+  .index-gallery-element {
+    flex-basis: 25%;
+    padding: 30px;
+  }
+}

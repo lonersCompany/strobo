@@ -1,4 +1,5 @@
 ---
+layout: project
 title: MILLENIAL GENDER
 images:
 - "/stroboMILLENIALGENDER.jpg"

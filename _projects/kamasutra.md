@@ -1,4 +1,5 @@
 ---
+layout: project
 title: Kamasutra
 images:
 - "/jakub-svoboda-20.jpg"

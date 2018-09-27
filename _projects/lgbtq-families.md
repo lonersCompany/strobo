@@ -1,4 +1,5 @@
 ---
+layout: project
 title: LGBTQ FAMILIES
 images:
 - "/stroboLGBTQ.jpg"

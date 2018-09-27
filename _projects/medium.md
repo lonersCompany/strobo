@@ -1,4 +1,5 @@
 ---
+layout: project
 title: MEDIUM
 images:
 - "/jakub-svoboda-7.jpg"
