@@ -8,6 +8,9 @@ order: 45
 col: col-b
 year: 2018-09-28 22:00:00 +0000
 date: 2018-09-26 16:54:57 +0000
+front-page-images:
+- "/v1538060226/stroboLOVEYOUROUTFIT2.jpg"
+- "/v1538060226/stroboLGBTQ.jpg"
 
 ---
 The project I was approached by LGBTQ family support organization. Family portraits from home with their children.
