@@ -2,7 +2,6 @@
 title: LGBTQ FAMILIES
 images:
 - "/stroboLGBTQ.jpg"
-- 
 order: 45
 col: col-b
 year: 2018-09-29 00:00:00 +0200

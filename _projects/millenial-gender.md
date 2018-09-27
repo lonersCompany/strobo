@@ -2,7 +2,6 @@
 title: MILLENIAL GENDER
 images:
 - "/stroboMILLENIALGENDER.jpg"
-- 
 order: 45
 col: col-c
 year: 2018-09-28 22:00:00 +0000
