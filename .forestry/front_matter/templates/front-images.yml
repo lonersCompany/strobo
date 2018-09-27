@@ -40,3 +40,5 @@ fields:
   config:
     required: true
   default: project
+pages:
+- _projects/nazev.md
