@@ -3,10 +3,6 @@ $grid-1: (100% / 3) * 1;
 $grid-2: (100% / 3) * 2;
 $grid-3: (100% / 3) * 3;
 
-$shake-size: 0.5rem;
-$shake-time: 0.5s;
-
-
 $body-heigth: 100vh;//calc(100vh - 89px);
 
 $page-max-width: 1700px;
@@ -26,10 +22,11 @@ $transition-long: all 0.5s ease-in;
 $click-animation-duration: 0.5s;
 
 /*Colors*/
-$font-regular-color: rgba(0, 0, 0, 1); //rgba(0, 0, 0, 1); //rgba(240, 0, 0, 1);//
-$backgroud-color: rgba(0, 0, 0, 1); //rgba(0, 0, 200, 1); //rgba(240, 0, 0, 1); //rgba(50, 0, 190, 1);//
+$font-regular-color: rgba(0, 0, 0, 1);
+$backgroud-color: rgba(0, 0, 0, 1);
 $backgroud-color-transparent: transparent;
 $button-color: rgb(255, 150, 150);
+$nav-color: rgba(241, 214, 175, 1);
 
 /*Borders*/
 $base-border: 1px solid $font-regular-color;

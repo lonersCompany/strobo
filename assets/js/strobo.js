@@ -1,12 +1,10 @@
-//
-// Strobo effect for homepage
-//
-// ------------------------------------
+---
+---
 
 const stroboGallery = (galleryElement) => {
 
   const allSlots = Array.from(galleryElement.getElementsByClassName('window'));
-  const cadence = 500;
+  const cadence = 200;
   const numberChanger = 0; // TODO: nefined like first element
 
 
@@ -20,45 +18,17 @@ const stroboGallery = (galleryElement) => {
     }, false)
   })
 
-
-
-  // NOT IN USE
-  // const runRandomChoose = (array) => {
-  //
-  //   numberChanger = (function (oldElement) {
-  //
-  //     const offElement = oldElement ? oldElement.classList.remove('active') : undefined;
-  //     const newElement = array[randomNumber(array.length)];
-  //     const activeElement = newElement.classList.add('active');
-  //     return newElement;
-  //
-  //   }(numberChanger));
-  //
-  //   return numberChanger
-  // }
-
-  // NOT IN USE
-  // const runOrderChoose = (array) => (numberChanger) => {
-  //
-  //   numberChanger = (function (oldNumber) {
-  //     const newNumber = oldNumber < (array.length - 1) ? oldNumber + 1 : 0;
-  //     return newNumber;
-  //   }(numberChanger));
-  //
-  //   return numberChanger
-  // }
-
   const runStrobo = (array) => {
 
-    //const result = array.filter(object => console.l); //object.classList.contains('.active')
-    const result = array.filter((element) => element.classList.contains('stop'));
-    const slotNumber = randomNumber(result.length);
-    const slotElement = result[slotNumber];
+    //const activeSlots = array.filter(object => console.l); //object.classList.contains('.active')
+    const activeSlots = array.filter((element) => element.classList.contains('stop'));
+    const slotNumber = randomNumber(activeSlots.length);
+    const slotElement = activeSlots[slotNumber];
     const childsElement =  Array.from(slotElement.childNodes);
     const childsNumber = randomNumber(childsElement.length);
     const childElement = childsElement[childsNumber];
 
-    const offslots = result.forEach((element) => {
+    const offslots = activeSlots.forEach((element) => {
       element.classList.remove('active');
     });
     const offchilds = childsElement.forEach((element) => {
@@ -69,7 +39,7 @@ const stroboGallery = (galleryElement) => {
   }
 
   var loop = (cadence) => {
-    return begin = setInterval(function() {
+    return setInterval(function() {
       runStrobo(allSlots);
     }, cadence);
   };

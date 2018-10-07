@@ -22,9 +22,9 @@
 
 .swiper-next {
   right: 0;
-  cursor: e-resize;
+  cursor: url("../img/arrow-right.svg"), e-resize;
 }
 
 .swiper-prev {
-  cursor: w-resize;
+  cursor: url("../img/arrow-left.svg"), w-resize;
 }

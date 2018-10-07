@@ -62,6 +62,10 @@ exclude:
   - node_modules
   - package-lock.json
   - package.json
+
+
+gems:
+  - jekyll-babel
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
