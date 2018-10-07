@@ -24,3 +24,5 @@ fields:
   config:
     required: true
   default: project
+pages:
+- _projects/a-2938.md
