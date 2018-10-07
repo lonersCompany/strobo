@@ -25,4 +25,5 @@ fields:
     required: true
   default: project
 pages:
+- _projects/b-6382.md
 - _projects/a-2938.md
