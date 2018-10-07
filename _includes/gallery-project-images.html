@@ -1,7 +1,7 @@
 <div class="window stop">
       {%- for image in project.front-page-images -%}
         <div class="project">
-          <a href="{{ site.url | relative_url }}{{ project.url }}">
+          <a href="{{ site.baseurl }}{{ project.url }}">
             {%- include image.html -%}
             {%- include caption.html -%}
           </a>
