@@ -16,22 +16,6 @@ fields:
   name: images
   label: Fotky
   description: Všechny fotky projektu
-- type: select
-  config:
-    source:
-      type: simple
-    options:
-    - col-a
-    - col-b
-    - col-c
-  label: Sloupec v galerii
-  name: col
-  description: Výber si sloupec
-  default: col-a
-- type: number
-  label: Číslo projetů
-  name: order
-  default: '45'
 - type: text
   name: layout
   label: Layout
