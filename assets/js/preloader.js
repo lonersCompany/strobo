@@ -4,6 +4,6 @@
 console.log('hi')
 document.addEventListener("DOMContentLoaded", function() {
   setTimeout(function() {
-    document.body.classList.add('load');
+    document.documentElement.classList.add('load');
   }, 1000);
 });
