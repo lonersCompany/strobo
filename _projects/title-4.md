@@ -10,6 +10,5 @@ front-page-images:
 - "/v1538060225/stroboPARALEL.jpg"
 - "/v1538060225/stroboBACKSTAGE.jpg"
 - "/v1538060226/stroboMEDIUM2.jpg"
-published: false
 
 ---
