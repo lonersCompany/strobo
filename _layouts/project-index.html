@@ -1,17 +1,24 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{%- include btn-back.html -%}
+  {%- include head.html -%}
 
-<div class="index-gallery strobo-gallery">
-  {%- for project in site.projects -%}
-        <a class="index-gallery-slot strobo-slot" href="{{ site.baseurl }}{{ project.url }}">
-          {%- for image in project.images -%}
-          <div class="strobo-element">
-            <img src="{{ site.img_url }}w_200{{ image }}" alt="" class="strobo-element"/>
-          </div>
-          {%- endfor -%}
-        </a>
-  {%- endfor -%}
-</div>
+  <body>
+
+    {%- include btn-back.html -%}
+
+    <div class="index-gallery strobo-gallery">
+      {%- for project in site.projects -%}
+            <a class="index-gallery-slot strobo-slot" href="{{ site.baseurl }}{{ project.url }}">
+              {%- for image in project.images -%}
+              <div class="strobo-element">
+                <img src="{{ site.img_url }}w_200{{ image }}" alt="" class="strobo-element"/>
+              </div>
+              {%- endfor -%}
+            </a>
+      {%- endfor -%}
+    </div>
+
+    {%- include scripts.html -%}
+  </body>
+</html>

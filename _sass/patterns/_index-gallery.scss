@@ -1,21 +1,47 @@
 .index-gallery {
+
   display: flex;
   flex-wrap: wrap;
 
   .index-gallery-slot {
 
-    flex-basis: 25%;
-    padding: 30px;
-
     position: relative;
+    display: flex;
+    flex-basis: $grid-1;
+    height: 120px;
+    overflow: hidden;
+
+    @media(min-width: $screen-md) {
+      flex-basis: 25%;
+      height: 200px;
+      //padding: 30px;
+    }
+
+    @media(min-width: $screen-lg) {
+      flex-basis: 25%;
+      height: 300px;
+      //padding: 30px;
+    }
+
 
     & > div {
       position: absolute;
+      width: 100%;
     }
   }
 }
 
 .strobo-element {
+
+  padding: 1px;
+
+  @media(min-width: $screen-md) {
+    padding: 2px;
+  }
+
+  @media(min-width: $screen-lg) {
+    padding: 5px;
+  }
 
 
   &.active {
