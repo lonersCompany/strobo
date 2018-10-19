@@ -3,9 +3,6 @@
   width: 100%;
   position: absolute;
   top: 0;
-  background-color: black;
-  transition: background-color 0.1s ease-in;
-
 
   img {
     width: 100%;
@@ -15,21 +12,10 @@
     object-position: top center;
   }
 
-  &.active {
-    z-index: 1;
-    background-color: white;
-
-    @include min-screen($layout-brekpoint) {
-      img {
-        animation: flash 0.3s;
-      }
-    }
+  &:hover {
+    z-index: 2;
+    opacity: 1;
+    filter: blur(0px);
+    cursor: pointer;
   }
-}
-
-
-.hover13 figure:hover img {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
 }

@@ -1,6 +1,10 @@
 body:not(.homepage) {
   animation: color-transition 30s infinite;
 }
+
+.homepage {
+  background-color: $backgroud-color;
+}
 .project-name {
   position: absolute;
   width: 100%;

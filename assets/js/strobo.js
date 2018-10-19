@@ -1,73 +1,113 @@
 ---
 ---
 
-const stroboGallery = (galleryElement) => {
+const stroboGallery = (mainElement) => {
 
-  const allSlots = Array.from(galleryElement.getElementsByClassName('window'));
-  const cadence = 200;
-  const numberChanger = 0; // TODO: nefined like first element
+  const childrens = mainElement.children;
+  const mainArray = Array.from(childrens)
+  const fromZero = 0; // TODO: nefined like first element
+  let returner = 0;
 
 
-  allSlots.forEach((slot) => {
-    slot.addEventListener('mouseover', function () {
+  const activeArray = mainArray.map((slot) => {
+    slot.addEventListener('mouseout', function () {
       slot.classList.remove('stop')
+      //print(slot);
     }, false)
 
-    slot.addEventListener('mouseout', function () {
+    slot.addEventListener('mouseover', function () {
       slot.classList.add('stop')
+      //print(slot);
     }, false)
   })
 
-  const runStrobo = (array) => {
-
-    //const activeSlots = array.filter(object => console.l); //object.classList.contains('.active')
-    const activeSlots = array.filter((element) => element.classList.contains('stop'));
-    const slotNumber = randomNumber(activeSlots.length);
-    const slotElement = activeSlots[slotNumber];
-    const childsElement =  Array.from(slotElement.childNodes);
-    const childsNumber = randomNumber(childsElement.length);
-    const childElement = childsElement[childsNumber];
-
-    const offslots = activeSlots.forEach((element) => {
-      element.classList.remove('active');
-    });
-    const offchilds = childsElement.forEach((element) => {
-      element.classList.remove('active');
-    });
-    const activeSlot = slotElement.classList.add('active');
-    const activeChild = childElement.classList.add('active');
-  }
-
-  var loop = (cadence) => {
-    return setInterval(function() {
-      runStrobo(allSlots);
-    }, cadence);
-  };
-
-  loop(cadence);
+  // order choose element
+  const orderChoose = (array) => {
 
 
-  const addMouseWheelEventListener = function (scrollHandler) {
-    if (window.addEventListener) {
-      // IE9+, Chrome, Safari, Opera
-      window.addEventListener("mousewheel", function() {
-        runStrobo(allSlots);
-      }, false);
-      // Firefox
-      window.addEventListener("DOMMouseScroll", function() {
-        runStrobo(allSlots);
-      }, false);
-    } else {
-      // // IE 6/7/8
-      window.attachEvent("onmousewheel", function() {
-        runStrobo(allSlots);
-      }, false);
+    let newNumber = 0;
+    const maximum = array.length;
+
+    return () => {
+
+      let oldNumber = newNumber++;
+
+      // array[oldNumber].classList.remove('active');
+      // array[newNumber].classList.add('active');
+      console.log(oldNumber);
+
+      return newNumber
     }
+
   }
 
-  addMouseWheelEventListener()
+  // random choose element
+  const randomChoose = (array) => {
+
+    let newNumber = 0;
+    const maximum = array.length;
+
+    return () => {
+
+      // switch off old element
+      let oldNumber = newNumber;
+      array[oldNumber].classList.remove('active');
+
+      // make new and switch on new element
+      newNumber = randomNumber(maximum);
+      array[newNumber].classList.add('active')
+
+      return newNumber
+    }
+
+  }
+
+  const orderChooseMain = randomChoose(mainArray);
+  const subArrays =  mainArray.map((array) => Array.from(array.children));
+  const orderChooseSub = subArrays.map((array) => randomChoose(array));
+
+  const choseSlotElement = function () {
+    let slotNumber = orderChooseMain();
+    let elementNumber = orderChooseSub[slotNumber]();
+  }
+
+  return choseSlotElement;
 }
 
 const windowEl = document.querySelector('.strobo-gallery'); // TODO: not get all
 
-if(windowEl) stroboGallery(windowEl);
+const buku = stroboGallery(windowEl);
+
+const cadence = 200;
+
+var loop = (cadence) => {
+  return setInterval(function() {
+    buku();
+  }, cadence);
+};
+
+
+// only homepage
+if(isHomepage()) {
+  loop(cadence);
+}
+
+const addMouseWheelEventListener = function (scrollHandler) {
+  if (window.addEventListener) {
+    // IE9+, Chrome, Safari, Opera
+    window.addEventListener("mousewheel", function() {
+      buku();
+    }, false);
+    // Firefox
+    window.addEventListener("DOMMouseScroll", function() {
+      buku();
+    }, false);
+  } else {
+    // // IE 6/7/8
+    window.attachEvent("onmousewheel", function() {
+      buku();
+    }, false);
+  }
+}
+
+addMouseWheelEventListener();

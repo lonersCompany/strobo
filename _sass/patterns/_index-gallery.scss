@@ -2,16 +2,31 @@
   display: flex;
   flex-wrap: wrap;
 
-  .index-gallery-element {
+  .index-gallery-slot {
+
     flex-basis: 25%;
     padding: 30px;
 
-    & > div {
-      position: relative;
+    position: relative;
 
-      img {
-        position: absolute;
-      }
+    & > div {
+      position: absolute;
     }
+  }
+}
+
+.strobo-element {
+
+
+  &.active {
+    z-index: 1;
+  }
+}
+
+.strobo-slot {
+  z-index: 0;
+
+  &.active {
+    z-index: 1;
   }
 }

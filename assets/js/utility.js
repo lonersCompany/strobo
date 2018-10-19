@@ -32,6 +32,9 @@ let removeClass = function(element, activeClass) {
   }
 };
 
+// Is HOMEPAGE
+const isHomepage = () => document.body.classList.contains('homepage');
+
 // TOGGLECLASS
 let toggleClass = function(element, className) {
     if (element.classList) {

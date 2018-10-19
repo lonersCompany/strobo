@@ -4,16 +4,14 @@ layout: default
 
 {%- include btn-back.html -%}
 
-<div class="index-gallery">
+<div class="index-gallery strobo-gallery">
   {%- for project in site.projects -%}
-    <div class="index-gallery-element">
-      <div>
-        <a href="{{ site.baseurl }}{{ project.url }}">
+        <a class="index-gallery-slot strobo-slot" href="{{ site.baseurl }}{{ project.url }}">
           {%- for image in project.images -%}
-            <img src="{{ site.img_url }}w_200{{ image }}" alt=""/>
+          <div class="strobo-element">
+            <img src="{{ site.img_url }}w_200{{ image }}" alt="" class="strobo-element"/>
+          </div>
           {%- endfor -%}
         </a>
-      </div>
-    </div>
   {%- endfor -%}
 </div>
