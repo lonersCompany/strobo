@@ -10,6 +10,5 @@ front-page-images:
 - "/v1538060226/stroboBADGYAL.jpg"
 - "/v1538060226/stroboCETAGENCY.jpg"
 - "/v1538060226/stroboLGBTQ.jpg"
-published: false
 
 ---
