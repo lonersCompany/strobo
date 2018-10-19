@@ -11,7 +11,7 @@
       {%- for project in site.projects -%}
             <a class="index-gallery-slot strobo-slot" href="{{ site.baseurl }}{{ project.url }}">
               {%- for image in project.images -%}
-              <div class="strobo-element">
+              <div class=" index-gallery-element strobo-element">
                 <img src="{{ site.img_url }}w_200{{ image }}" alt="" class="strobo-element"/>
               </div>
               {%- endfor -%}
