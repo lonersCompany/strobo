@@ -1,7 +1,7 @@
 @keyframes color-transition {
-	0% {background: rgba(80, 50, 50, 1)}
-  30% {background: rgba(48, 30, 28, 1)}
-  100% {background: rgba(80, 50, 50, 1)}
+	0% {background: #F1D6AF}
+  30% {background: #50320A}
+  100% {background: #F1D6AF}
 }
 
 @keyframes hoverdot {
@@ -14,5 +14,22 @@
 	100% {
 		opacity: 1;
     filter: blur(0px);
+	}
+}
+
+@keyframes flashtwo {
+
+	0% {
+		opacity: 0;
+		filter: blur(10px);
+	}
+	
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 1;
+		filter: blur(0px);
 	}
 }

@@ -4,21 +4,21 @@
 // ——————------------
 
 @font-face {
-  font-family: 'Trickster';
-  src: url('../fonts/trickster/trickster-regular.woff2') format('woff2'),
-  url('../fonts/trickster/trickster-regular.woff') format('woff'),
-  url('../fonts/trickster/trickster-regular.ttf') format('truetype'),
-  url('../fonts/trickster/trickster-regular.svg') format('svg');
+  font-family: 'serif';
+  src: url('../fonts/serif/serif.woff2') format('woff2'),
+  url('../fonts/serif/serif.woff') format('woff'),
+  url('../fonts/serif/serif.ttf') format('truetype'),
+  url('../fonts/serif/serif.svg') format('svg');
   // font-weight: 200;
   // font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cotham';
-  src: url('../fonts/cotham/CothamSans.woff2') format('woff2'),
-  url('../fonts/cotham/CothamSans.woff') format('woff'),
-  url('../fonts/cotham/CothamSans.ttf') format('truetype'),
-  url('../fonts/cotham/CothamSans.svg') format('svg');
+  font-family: 'sans-serif';
+  src: url('../fonts/sans-serif/sans-serif.woff2') format('woff2'),
+  url('../fonts/sans-serif/sans-serif.woff') format('woff'),
+  url('../fonts/sans-serif/sans-serif.ttf') format('truetype'),
+  url('../fonts/sans-serif/sans-serif.svg') format('svg');
   // font-weight: 200;
   // font-style: normal;
 }

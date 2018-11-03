@@ -2,52 +2,59 @@
 
   display: flex;
   flex-wrap: wrap;
-
-  .index-gallery-slot {
-
-    position: relative;
-    display: flex;
-    flex-basis: $grid-1;
-    height: 120px;
-    overflow: hidden;
-
-    @media(min-width: $screen-md) {
-      flex-basis: 25%;
-      height: 200px;
-      //padding: 30px;
-    }
-
-    @media(min-width: $screen-lg) {
-      flex-basis: $grid-3;
-      height: 300px;
-      //padding: 30px;
-    }
-
-
-    & > div {
-      position: absolute;
-      width: 100%;
-    }
-  }
 }
 
-.index-gallery-element {
-  
-  padding: 1px;
+.index-gallery-slot {
+
+  position: relative;
+  display: flex;
+  flex-basis: 50%;
+  height: 200px;
+  overflow: hidden;
 
   @media(min-width: $screen-md) {
-    padding: 2px;
+    flex-basis: 25%;
+    height: 200px;
+    //padding: 30px;
   }
 
   @media(min-width: $screen-lg) {
-    padding: 10px;
+    flex-basis: $grid-3;
+    height: 300px;
+    //padding: 30px;
+  }
+
+  & > div {
+    position: absolute;
+    width: 100%;
   }
 }
 
+
 .strobo-element {
+
+  &:hover {
+    z-index: 2;
+  }
 
   &.active {
     z-index: 1;
+  }
+}
+
+.hero-wrapper .strobo-element {
+
+  opacity: 0;
+
+  &.active {
+    animation: flashtwo 200ms forwards; //infinite;
+  }
+
+  @media(min-width: $screen-md) {
+
+    &.active {
+      animation: flashtwo 200ms;
+    }
   }
 }
 

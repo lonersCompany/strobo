@@ -1,113 +1,86 @@
 ---
 ---
 
-const stroboGallery = (mainElement) => {
+// order choose element
+const orderChoose = (array) => {
 
-  const childrens = mainElement.children;
-  const mainArray = Array.from(childrens)
-  const fromZero = 0; // TODO: nefined like first element
-  let returner = 0;
+  let newNumber = 0;
+  const maximum = array.length;
 
+  return () => {
 
-  const activeArray = mainArray.map((slot) => {
-    slot.addEventListener('mouseout', function () {
-      slot.classList.remove('stop')
-      //print(slot);
-    }, false)
-
-    slot.addEventListener('mouseover', function () {
-      slot.classList.add('stop')
-      //print(slot);
-    }, false)
-  })
-
-  // order choose element
-  const orderChoose = (array) => {
-
-
-    let newNumber = 0;
-    const maximum = array.length;
-
-    return () => {
-
-      let oldNumber = newNumber++;
-
-      // array[oldNumber].classList.remove('active');
-      // array[newNumber].classList.add('active');
-      console.log(oldNumber);
-
-      return newNumber
-    }
-
+    let oldNumber = newNumber++;
+    return newNumber
   }
+}
 
-  // random choose element
-  const randomChoose = (array) => {
+// random choose element
+const randomChoose = () => {
+  let newNumber = 0;
 
-    let newNumber = 0;
+  return (array) => {
     const maximum = array.length;
+    // switch off old element
+    let oldNumber = newNumber;
+    array[oldNumber].classList.remove('active');
 
-    return () => {
+    // make new and switch on new element
+    newNumber = randomNumber(maximum);
+    array[newNumber].classList.add('active')
 
-      // switch off old element
-      let oldNumber = newNumber;
-      array[oldNumber].classList.remove('active');
-
-      // make new and switch on new element
-      newNumber = randomNumber(maximum);
-      array[newNumber].classList.add('active')
-
-      return newNumber
-    }
-
+    return newNumber
   }
+}
 
-  const orderChooseMain = randomChoose(mainArray);
+const stroboGallery = (mainEl) => {
+  const childrens = mainEl.children;
+  const mainArray = Array.from(childrens);
   const subArrays =  mainArray.map((array) => Array.from(array.children));
-  const orderChooseSub = subArrays.map((array) => randomChoose(array));
 
-  const choseSlotElement = function () {
-    let slotNumber = orderChooseMain();
-    let elementNumber = orderChooseSub[slotNumber]();
+
+  // closures
+  const randomChooseMain = randomChoose();
+  const orderChooseSub = subArrays.map((array) => randomChoose());
+
+  const runStrobo = () => {
+    let slotNumber = randomChooseMain(mainArray);
+    let activeSubArray = orderChooseSub[slotNumber](subArrays[slotNumber]);
+  };
+
+  const cadenceMobile = 1000;
+  const cadenceDesktop = 200;
+
+  var loop = (cadence) => {
+    return setInterval(function() {
+      runStrobo();
+    }, cadence);
+  };
+
+  if(isMobile) {
+    loop(cadenceMobile)
+  } else {
+    loop(cadenceDesktop)
   }
 
-  return choseSlotElement;
-}
-
-const windowEl = document.querySelector('.strobo-gallery'); // TODO: not get all
-
-const buku = stroboGallery(windowEl);
-
-const cadence = 200;
-
-var loop = (cadence) => {
-  return setInterval(function() {
-    buku();
-  }, cadence);
-};
-
-
-// only homepage
-if(isHomepage()) {
-  loop(cadence);
-}
-
-const addMouseWheelEventListener = function (scrollHandler) {
   if (window.addEventListener) {
-    // IE9+, Chrome, Safari, Opera
+    window.addEventListener("scroll", function() {
+      runStrobo();
+    }, false);
+
     window.addEventListener("mousewheel", function() {
-      buku();
+      runStrobo();
     }, false);
     // Firefox
     window.addEventListener("DOMMouseScroll", function() {
-      buku();
+      runStrobo();
     }, false);
   } else {
     // // IE 6/7/8
     window.attachEvent("onmousewheel", function() {
-      buku();
+      runStrobo();
     }, false);
   }
 }
 
-addMouseWheelEventListener();
+const windowEl = document.querySelector('.strobo-gallery'); // TODO: not get all
+if(windowEl){stroboGallery(windowEl)}

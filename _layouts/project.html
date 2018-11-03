@@ -2,14 +2,14 @@
 layout: default
 ---
 
-{%- include btn-back.html -%}
+<h2 class="project-title center">
+  {{ page.title }}
+</h2>
 
 {%- include gallery-swiper.html -%}
 
 <div class="text-block">
-  <h2 class="center">
-    {{ page.title }}
-  </h2>
+
   {{ content }}
 </div>
 

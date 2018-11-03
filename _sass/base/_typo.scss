@@ -6,10 +6,11 @@ html {
 	font-size: 18px;
   font-family: $font-regular;
 	color: $font-regular-color;
+	letter-spacing: 0.07em;
 
 	// iphone 6
 	@include min-screen(375px) {
-		font-size: 22px;
+		font-size: 18px;
 	}
 
 	// ipad portrait
@@ -37,12 +38,13 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5em;
-  line-height: 1.25em;
-  //text-transform: uppercase;
-	margin-bottom: 1.5rem;
-	letter-spacing: 0.15em;
+	font-family: $font-secondary;
+	font-size: 1.2rem;
+  // margin-bottom: 0.5em;
+  // line-height: 1.25em;
+  // //text-transform: uppercase;
+	// margin-bottom: 1.5rem;
+	letter-spacing: 0.1em;
 }
 
 h3 {
@@ -53,16 +55,8 @@ h3 {
 }
 
 h4 {
-  font-size: 0.7em;
-  margin-bottom: 1.5rem;
-	font-weight: normal;
-	letter-spacing: 0.15em;
+  font-size: 0.8em;
 }
-
-h4 {
-  margin-bottom: 0.5rem;
-}
-
 
 table {
   th {
@@ -81,6 +75,16 @@ p  {
 	line-height: $font-regular-height;
 	margin-top: $padding-l;
 	margin-bottom: $padding-l;
+}
+
+a {
+	text-decoration: none;
+	color: $font-regular-color;
+
+	&:hover {
+		text-decoration: none;
+		color: $secondary-color;
+	}
 }
 
 p a,

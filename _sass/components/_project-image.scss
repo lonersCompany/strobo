@@ -3,6 +3,7 @@
   width: 100%;
   position: absolute;
   top: 0;
+  cursor: pointer;
 
   img {
     width: 100%;
@@ -11,11 +12,8 @@
     object-fit: cover;
     object-position: top center;
   }
+}
 
-  &:hover {
-    z-index: 2;
-    opacity: 1;
-    filter: blur(0px);
-    cursor: pointer;
-  }
+.project-title {
+  padding: $padding-base;
 }

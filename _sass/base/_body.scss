@@ -1,10 +1,11 @@
 body:not(.homepage) {
-  animation: color-transition 30s infinite;
+  animation: color-transition 120s infinite;
 }
 
 .homepage {
   background-color: $backgroud-color;
 }
+
 .project-name {
   position: absolute;
   width: 100%;
@@ -13,4 +14,8 @@ body:not(.homepage) {
   color: white;
   padding: 2em;
   font-size: 2em;
+}
+
+.f-c-secondary {
+  color: $secondary-color;
 }

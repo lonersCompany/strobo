@@ -6,23 +6,7 @@
   bottom: 0;
   transition: 0.5s ease-in;
   transition-property: opacity, filter;
-  //opacity: 0;
-  //filter: blur(15px);
-
-  // .project.active & {
-  //   opacity: 1;
-  //   filter: blur(0);
-  // }
-
-	h2 {
-		font-size: 0.7rem;
-		color: rgba(241, 214, 175, 1);
-    text-transform: uppercase;
-	}
-	h4 {
-		font-size: 0.7rem;
-		color: rgba(241, 214, 175, 1);
-	}
+  margin-bottom: 25px;
 
   @media(min-width: $screen-md) {
 
@@ -36,4 +20,8 @@
       filter: blur(0);
     }
   }
+}
+
+.number {
+  margin-bottom: 0.5em;
 }

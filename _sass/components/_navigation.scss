@@ -1,14 +1,13 @@
 button {
   display: block;
-  padding: 0.5em 0.7em;
-  color: $nav-color;
+  padding: $padding-base;
   border: none;
   background-color: transparent;
   font-size: 1em;
   text-transform: uppercase;
 
   &:hover {
-    color: $button-color;
+    //color: $button-color;
   }
 }
 
