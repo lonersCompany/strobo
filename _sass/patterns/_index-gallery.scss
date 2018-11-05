@@ -46,6 +46,10 @@
 
   opacity: 0;
 
+  &:hover {
+    opacity: 1;
+  }
+
   &.active {
     animation: flashtwo 200ms forwards; //infinite;
   }

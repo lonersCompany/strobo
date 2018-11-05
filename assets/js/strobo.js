@@ -56,11 +56,12 @@ const stroboGallery = (mainEl) => {
     }, cadence);
   };
 
-  if(isMobile) {
+  if(isMobile()) {
     loop(cadenceMobile)
   } else {
     loop(cadenceDesktop)
   }
+
 
   if (window.addEventListener) {
     window.addEventListener("scroll", function() {
