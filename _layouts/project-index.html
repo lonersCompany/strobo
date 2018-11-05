@@ -5,19 +5,23 @@
 
   <body>
 
-    <h1 class="header-title">
-      Project
+    <h1 class="header-title center">
+      Projects
     </h1>
 
-    <div class="index-gallery strobo-gallery">
+    <div class="index-gallery">
       {%- for project in site.projects -%}
-            <a class="index-gallery-slot strobo-slot" href="{{ site.baseurl }}{{ project.url }}">
+        <a class="index-gallery-slot" href="{{ site.baseurl }}{{ project.url }}">
+            <div class="f-c-secondary number center">04</div>
+            <h2 class="f-c-secondary center">{{ project.title }}</h2>
+            <div class="strobo-slot" href="{{ site.baseurl }}{{ project.url }}">
               {%- for image in project.images -%}
-              <div class=" index-gallery-element strobo-element">
+              <div class="strobo-element">
                 <img src="{{ site.img_url }}w_200{{ image }}" alt="" class="strobo-element"/>
               </div>
               {%- endfor -%}
-            </a>
+            </div>
+        </a>
       {%- endfor -%}
     </div>
 

@@ -31,7 +31,7 @@ html {
 
 h1 {
 	width: 100%;
-  font-size: 1.5rem;
+  font-size: 1em;
   line-height: 2rem;
   font-weight: normal;
 	margin-bottom: 0.5em;
@@ -39,12 +39,16 @@ h1 {
 
 h2 {
 	font-family: $font-secondary;
-	font-size: 1.2rem;
-  // margin-bottom: 0.5em;
-  // line-height: 1.25em;
-  // //text-transform: uppercase;
-	// margin-bottom: 1.5rem;
-	letter-spacing: 0.1em;
+	font-size: 1.4rem;
+
+  .info & {
+		text-align: center;
+		margin-bottom: 1.5em;
+
+		&:not(:first-child) {
+			margin-top: 7rem;
+		}
+	}
 }
 
 h3 {
@@ -87,25 +91,25 @@ a {
 	}
 }
 
-p a,
-li a {
-  text-decoration: none;
-  color: $font-regular-color;
-
-	&::after {
-		content: "•";
-		margin-left: 0.25em;
-		transition: all 0.3s;
-	}
-
-	&:hover {
-		color: lighten($font-regular-color, 30%);
-
-		&::after {
-			margin-left: 0.6em;
-		}
-	}
-}
+// p a,
+// li a {
+//   text-decoration: none;
+//   color: $font-regular-color;
+//
+// 	&::after {
+// 		content: "•";
+// 		margin-left: 0.25em;
+// 		transition: all 0.3s;
+// 	}
+//
+// 	&:hover {
+// 		color: lighten($font-regular-color, 30%);
+//
+// 		&::after {
+// 			margin-left: 0.6em;
+// 		}
+// 	}
+// }
 
 .center {
   text-align: center;

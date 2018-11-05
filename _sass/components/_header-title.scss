@@ -2,6 +2,21 @@
   text-transform: uppercase;
   line-height: normal;
   margin-bottom: 0;
-  padding: $padding-base;
-  text-align: center;
+}
+
+.animated-menu-left,
+.animated-menu-right {
+
+  transition: all 0.3s ease-in;
+  width: auto;
+  z-index: 10;
+  display: inline;
+}
+
+.animated-menu-left {
+
+  .animated-menu & {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
 }

@@ -1,37 +1,38 @@
 .index-gallery {
-
   display: flex;
   flex-wrap: wrap;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .index-gallery-slot {
 
   position: relative;
   display: flex;
-  flex-basis: 50%;
-  height: 200px;
+  flex-basis: $grid-1;
   overflow: hidden;
+  padding: 0 15px;
+
+  height: 200px;
 
   @media(min-width: $screen-md) {
-    flex-basis: 25%;
-    height: 200px;
+    //flex-basis: 25%;
+    height: 350px;
     //padding: 30px;
   }
 
   @media(min-width: $screen-lg) {
-    flex-basis: $grid-3;
+    //flex-basis: $grid-3;
     height: 300px;
     //padding: 30px;
-  }
-
-  & > div {
-    position: absolute;
-    width: 100%;
   }
 }
 
 
 .strobo-element {
+
+  position: absolute;
+  width: 100%;
 
   &:hover {
     z-index: 2;
