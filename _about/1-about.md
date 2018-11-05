@@ -17,3 +17,36 @@ Jakub Ra has long and intensively devoted himself to the body as the central phe
 In the field of fashion he run multidisciplinary project SOTC (Sperm on the clothes) already for four years. In the medium of photography he depicts the theme of body in very comprehensive and profound contexts, metaphysically elaborating all its overlaps and trying to work with the body as a real open environment of today's existence.
 
 His work is therefore crucial in terms of carnal aesthetics and the discovery of beauty. He is not afraid of internal structures, unknown contexts or extreme positions, so everyone who deals with body weight, physicality, and body survival in overcoming metaphysical being, spirituality, and transformation to the transcendence of bodily experience should pay attention to his work
+
+## Education
+
+* 2017
+
+  residence Studio Vortex, leader Antoine d'Agatha, Arles (France)
+* 2015—now
+
+  Academy of Performing Arts in Prague Film and TV Faculty FAMU  (Intermedia, Photography, New Media)
+* 2011—2015
+
+  High School of Art and Design, Style and Fashion in Brno
+
+## Solo exhibitions
+
+* 2017
+
+  ANTIDIMENSION, Bohemian National Hall, New York (USA)
+* 2016
+
+  INSTANT COBRA, Matmos Gallery, Prague (CZ) RED HAUL SICKNESS, Korpus, (with PXS), Prague (CZ) BLUE MASS, Imperia Design, Bratislava (SK) DEFINITION OF BEAUTY, GRID Gallery, Prague (CZ)
+* 2015
+
+  GENDER FREE, Petrohradská kolektiv, Prague (CZ)
+* 2014
+
+  LOST SYMBIOSIS, Art Gallery, Prostějov (CZ)
+* 2014
+
+  PROJECT GENDER, Museum and Gallery, Prostějov (CZ) (UN) REAL VIEW, Anne Frank Memorial, Brno (CZ)
+* 2013
+
+  SOUL, Art Gallery, Prostějov (CZ)
