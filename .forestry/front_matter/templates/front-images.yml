@@ -25,6 +25,7 @@ fields:
     required: true
   default: project
 pages:
+- _about/about-úpravy-textu.md
 - _projects/title-4.md
 - _projects/b-6382.md
 - _projects/project-5.md
