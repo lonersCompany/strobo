@@ -50,3 +50,18 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 * 2013
 
   SOUL, Art Gallery, Prostějov (CZ)
+
+## Awards
+
+* 2015
+
+  1st place, ,,MUS?“ DOX - Centre for Contemporary Art (Prague) final round, foto festival Český Krumlov
+* 2014
+
+  special jury award - ,,MUS?“ (with Tomáš Komárek)
+* 2012
+
+  honorable mention - Poetry and Prose
+* 2011
+
+  1st place - Photographer of the Year Junior
