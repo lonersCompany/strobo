@@ -7,8 +7,8 @@ fields:
   label: Pořadí
   name: order
 pages:
+- _about/1. jakub-ra.md
 - _about/solo-exhibitions.md
 - _about/education.md
-- _about/jakub-ra.md
 - _about/group-exhibitions.md
 - _about/awards.md
