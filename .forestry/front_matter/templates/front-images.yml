@@ -25,7 +25,6 @@ fields:
     required: true
   default: project
 pages:
-- _about/awards.md
 - _projects/title-4.md
 - _projects/b-6382.md
 - _projects/project-5.md
