@@ -2,6 +2,7 @@
 title: JAKUB RA
 date: 2018-11-05 12:07:47 +0100
 undefined: ''
+order: 1
 
 ---
 Visual artist, performer, art director, LGBTQ activist and head of the nonmodel agency New Aliens, based in Prague Czech republic.
