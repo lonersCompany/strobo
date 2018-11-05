@@ -4,6 +4,7 @@ hide_body: false
 is_partial: false
 fields: []
 pages:
+- _about/1-about.md
 - _about/AA.md
 - _about/solo-exhibitions.md
 - _about/education.md
