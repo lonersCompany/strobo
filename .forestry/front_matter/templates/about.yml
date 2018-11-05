@@ -2,10 +2,7 @@
 label: About
 hide_body: false
 is_partial: false
-fields:
-- type: number
-  label: Pořadí
-  name: order
+fields: []
 pages:
 - _about/1. jakub-ra.md
 - _about/solo-exhibitions.md
