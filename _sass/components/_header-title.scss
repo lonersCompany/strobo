@@ -2,6 +2,7 @@
   text-transform: uppercase;
   line-height: normal;
   margin-bottom: 0;
+  cursor: pointer;
 }
 
 .animated-menu-left,
@@ -10,7 +11,7 @@
   transition: all 0.3s ease-in;
   width: auto;
   z-index: 10;
-  display: inline;
+  display: inline-block;
 }
 
 .animated-menu-left {

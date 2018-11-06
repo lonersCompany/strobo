@@ -28,11 +28,16 @@
 }
 
 .strobo-gallery,
+.icon-cross,
 .info {
   transition: $transition-long;
 }
 
 .info-is-activated {
+
+  .icon-cross {
+    transform: rotate(45deg);
+  }
 
   .strobo-gallery {
     filter: blur(10px);
