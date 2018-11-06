@@ -24,6 +24,7 @@
 .info {
   opacity: 0;
   z-index: -100;
+  pointer-events: none;
 }
 
 .strobo-gallery,
@@ -39,6 +40,7 @@
 
   .info {
     z-index: 10;
+    pointer-events: auto;
     opacity: 1;
   }
 
