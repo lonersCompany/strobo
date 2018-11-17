@@ -1,6 +1,14 @@
 ---
 title: Medium
-images: []
+images:
+- "/v1542468146/jakub%20-%2016.jpg"
+- "/v1542468087/jakub%20-%2015.jpg"
+- "/v1542467886/jakub%20-%2013.jpg"
+- "/v1542468081/jakub%20-%2010.jpg"
+- "/v1542468043/jakub%20-%209.jpg"
+- "/v1542468146/jakub%20-%207.jpg"
+- "/v1542468130/jakub%20-%203.jpg"
+- "/v1542468038/Jakub%20-%201.jpg"
 layout: project
 date: 2018-10-19 23:13:15 +0000
 front-page-images:
