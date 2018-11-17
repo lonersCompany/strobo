@@ -10,7 +10,6 @@ layout: project
 date: 2018-11-17 16:08:12 +0100
 front-page-images:
 - "/v1542467476/28947349_389833641490241_992250870951850511_o.png"
-published: false
 
 ---
 The performance focuses on the community of people (from New Aliens Agency) as a redefined strategy in contemporary art. 
