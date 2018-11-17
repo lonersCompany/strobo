@@ -22,3 +22,13 @@
   // font-weight: 200;
   // font-style: normal;
 }
+
+@font-face {
+  font-family: 'sans-serif-black';
+  src: url('../fonts/sans-serif/sans-serif-black.woff2') format('woff2'),
+  url('../fonts/sans-serif/sans-serif-black.woff') format('woff'),
+  url('../fonts/sans-serif/sans-serif-black.ttf') format('truetype'),
+  url('../fonts/sans-serif/sans-serif-black.svg') format('svg');
+  // font-weight: 200;
+  // font-style: normal;
+}
