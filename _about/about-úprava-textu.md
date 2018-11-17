@@ -9,7 +9,6 @@ Visual artist, performer, art director, LGBTQ+ activist and head of the nonmodel
 
 * [→ INSTAGRAM](https://www.instagram.com/jakubra____/ "instagram")
 * → MAIL
-* → NEW ALIENS AGENCY
 * → SOTC
 
 Jakub Ra has long and intensively devoted himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to a body. Fashion, performance, food, a community of people, commercial world and dance.
