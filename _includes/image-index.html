@@ -1,0 +1,9 @@
+<img
+srcset="
+{{ site.img_url }}w_500,h_1000,c_crop{{ image }} 500w,
+{{ site.img_url }}w_710,h_1420,c_crop{{ image }} 710w,
+{{ site.img_url }}w_1000,h_2000,c_crop{{ image }} 1420w"
+src="{{ site.img_url }}w_500,h_1000,c_crop{{ image }}"
+sizes="(min-width: 640px) 33vw, 100vw"
+alt="{{ project.title }}, Jakub RA"
+ />

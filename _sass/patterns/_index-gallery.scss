@@ -1,31 +1,24 @@
 .index-gallery {
-  display: flex;
-  flex-wrap: wrap;
+
   max-width: 700px;
   margin: 0 auto;
+
+  @include min-screen($layout-brekpoint) {
+    display: flex;
+    flex-wrap: wrap;
+	}
 }
 
 .index-gallery-slot {
 
   position: relative;
-  //display: flex;
-  flex-basis: $grid-1;
-  overflow: hidden;
   padding: 0 15px;
+  margin-bottom: 3em;
 
-  height: 200px;
-
-  @media(min-width: $screen-md) {
-    //flex-basis: 25%;
-    height: 350px;
-    //padding: 30px;
-  }
-
-  @media(min-width: $screen-lg) {
-    //flex-basis: $grid-3;
-    height: 300px;
-    //padding: 30px;
-  }
+  @include min-screen($layout-brekpoint) {
+    flex-basis: $grid-1;
+    margin-bottom: 5em;
+	}
 }
 
 
@@ -39,26 +32,6 @@
     z-index: 1;
   }
 }
-
-// .hero-wrapper .strobo-element {
-//
-//   opacity: 0;
-//
-//   &:hover {
-//     opacity: 1;
-//   }
-//
-//   &.active {
-//     animation: flashtwo 200ms forwards; //infinite;
-//   }
-//
-//   @media(min-width: $screen-md) {
-//
-//     &.active {
-//       animation: flashtwo 200ms;
-//     }
-//   }
-// }
 
 .strobo-slot {
   z-index: 0;
