@@ -95,3 +95,34 @@ const hoverEvent = function(elements, activeClass) {
     }, false)
   });
 };
+
+// order choose element
+const orderChoose = (array) => {
+
+  let newNumber = 0;
+  const maximum = array.length;
+
+  return () => {
+
+    let oldNumber = newNumber++;
+    return newNumber
+  }
+}
+
+// random choose element
+const randomChoose = () => {
+  let newNumber = 0;
+
+  return (array) => {
+    const maximum = array.length;
+    // switch off old element
+    let oldNumber = newNumber;
+    array[oldNumber].classList.remove('active');
+
+    // make new and switch on new element
+    newNumber = randomNumber(maximum);
+    array[newNumber].classList.add('active')
+
+    return newNumber
+  }
+}

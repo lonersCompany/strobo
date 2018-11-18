@@ -31,9 +31,6 @@
 
 .strobo-element {
 
-  position: absolute;
-  width: 100%;
-
   &:hover {
     z-index: 2;
   }
@@ -43,25 +40,25 @@
   }
 }
 
-.hero-wrapper .strobo-element {
-
-  opacity: 0;
-
-  &:hover {
-    opacity: 1;
-  }
-
-  &.active {
-    animation: flashtwo 200ms forwards; //infinite;
-  }
-
-  @media(min-width: $screen-md) {
-
-    &.active {
-      animation: flashtwo 200ms;
-    }
-  }
-}
+// .hero-wrapper .strobo-element {
+//
+//   opacity: 0;
+//
+//   &:hover {
+//     opacity: 1;
+//   }
+//
+//   &.active {
+//     animation: flashtwo 200ms forwards; //infinite;
+//   }
+//
+//   @media(min-width: $screen-md) {
+//
+//     &.active {
+//       animation: flashtwo 200ms;
+//     }
+//   }
+// }
 
 .strobo-slot {
   z-index: 0;

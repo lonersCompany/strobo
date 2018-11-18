@@ -1,6 +1,19 @@
 // Mobile layout, easy images with header
 .project {
-  width: 100%;
+
+
+  // GRID
+  width: $grid-1;
+  &:nth-child(2n) {
+    margin-left: $grid-1;
+  }
+
+  &:nth-child(3n) {
+    margin-left: $grid-1 * 2;
+  }
+
+
+
   position: absolute;
   top: 0;
   cursor: pointer;

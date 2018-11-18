@@ -42,6 +42,7 @@ const stroboGallery = (mainEl) => {
   const orderChooseSub = subArrays.map((array) => randomChoose());
 
   const runStrobo = () => {
+    console.log('hey')
     let slotNumber = randomChooseMain(mainArray);
     let activeSubArray = orderChooseSub[slotNumber](subArrays[slotNumber]);
   };

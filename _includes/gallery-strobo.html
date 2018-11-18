@@ -1,16 +1,3 @@
 <div class="strobo-gallery windows">
-  {% for project in site.projects %}
-    {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-    {% if modulo == '0' %}
-      {%- include gallery-project-images.html -%}
-    {% endif %}
-
-    {% if modulo == '1' %}
-      {%- include gallery-project-images.html -%}
-    {% endif %}
-
-    {% if modulo == '2' %}
-      {%- include gallery-project-images.html -%}
-    {% endif %}
-  {% endfor %}
+    {%- include gallery-project-images.html -%}
 </div>

@@ -1,10 +1,10 @@
-<div class="window strobo-slot">
-      {%- for image in project.front-page-images -%}
-        <div class="project strobo-element">
-          <a href="{{ site.baseurl }}{{ project.url }}">
-            {%- include image.html -%}
-            </a>
-            {%- include caption.html -%}
-        </div>
-      {%- endfor -%}
-</div>
+{% for project in site.projects %}
+  {%- for image in project.front-page-images -%}
+    <div class="project strobo-element">
+      <a href="{{ site.baseurl }}{{ project.url }}">
+        {%- include image.html -%}
+        </a>
+        {%- include caption.html -%}
+    </div>
+  {%- endfor -%}
+{%- endfor -%}
