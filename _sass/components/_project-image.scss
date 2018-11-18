@@ -1,18 +1,18 @@
 // Mobile layout, easy images with header
 .project {
 
+  @media(min-width: $screen-md) {
+    // GRID
+    width: $grid-1;
 
-  // GRID
-  width: $grid-1;
-  &:nth-child(2n) {
-    margin-left: $grid-1;
+    &.first {
+      margin-left: $grid-1;
+    }
+
+    &.second {
+      margin-left: $grid-1 * 2;
+    }
   }
-
-  &:nth-child(3n) {
-    margin-left: $grid-1 * 2;
-  }
-
-
 
   position: absolute;
   top: 0;

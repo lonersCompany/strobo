@@ -1,86 +1,108 @@
 ---
 ---
-// order choose element
-const orderChoose = (array) => {
-
-  let newNumber = 0;
-  const maximum = array.length;
-
-  return () => {
-
-    let oldNumber = newNumber++;
-    return newNumber
-  }
-}
-
-// random choose element
-const randomChoose = () => {
-  let newNumber = 0;
-
-  return (array) => {
-    const maximum = array.length;
-    // switch off old element
-    let oldNumber = newNumber;
-    array[oldNumber].classList.remove('active');
-
-    // make new and switch on new element
-    newNumber = randomNumber(maximum);
-    array[newNumber].classList.add('active')
-
-    return newNumber
-  }
-}
 
 const stroboGallery = (mainEl) => {
-  const childrens = mainEl.children;
-  const mainArray = Array.from(childrens);
-  const subArrays =  mainArray.map((array) => Array.from(array.children));
 
-
-  // closures
-  const randomChooseMain = randomChoose();
-  const orderChooseSub = subArrays.map((array) => randomChoose());
-
-  const runStrobo = () => {
-    console.log('hey')
-    let slotNumber = randomChooseMain(mainArray);
-    let activeSubArray = orderChooseSub[slotNumber](subArrays[slotNumber]);
-  };
-
-  const cadenceMobile = 1000;
-  const cadenceDesktop = 200;
-
-  var loop = (cadence) => {
-    return setInterval(function() {
-      runStrobo();
-    }, cadence);
-  };
+  const mainArray = Array.from(mainEl.children);
 
   if(isMobile()) {
-    loop(cadenceMobile)
-  } else {
-    loop(cadenceDesktop)
-  }
+    // one col
+    const chooseWithAll = randomChoose();
 
+    var loop = (cadence) => {
+      return setInterval(function() {
+        chooseWithAll(mainArray)
+      }, cadence);
+    };
+    loop(1000)
 
-  if (window.addEventListener) {
     window.addEventListener("scroll", function() {
-      runStrobo();
+      chooseWithAll(mainArray)
     }, false);
 
-    window.addEventListener("mousewheel", function() {
-      runStrobo();
-    }, false);
-    // Firefox
-    window.addEventListener("DOMMouseScroll", function() {
-      runStrobo();
-    }, false);
   } else {
-    // // IE 6/7/8
-    window.attachEvent("onmousewheel", function() {
-      runStrobo();
-    }, false);
+    // two console// closures
+    const bythree = (array) => {
+
+
+      let allArray = [[], [], []];
+
+      let i = 0;
+      array.forEach((object) => {
+
+          if(i === 0) {
+            allArray[0].push(object)
+          }
+
+          if(i === 1) {
+            allArray[1].push(object)
+          }
+
+          if(i === 2) {
+            allArray[2].push(object)
+          }
+
+          i++
+
+          if( i === 3) {
+            i = 0;
+          }
+      });
+
+      return allArray
+    }
+
+    const devidedArray = bythree(mainArray);
+
+    const zero = devidedArray[0].map((object) => {
+      object.classList.add('zero');
+    });
+
+    const first = devidedArray[1].map((object) => {
+      object.classList.add('first');
+    });
+
+    const second = devidedArray[2].map((object) => {
+      object.classList.add('second');
+    });
+    
+    const orderChooseSub = devidedArray.map((array) => randomChoose());
+    const runStrobo = () => {
+      let slotNumber = randomNumber(devidedArray.length);
+      let activeSubArray = orderChooseSub[slotNumber](devidedArray[slotNumber]);
+    };
+
+    var loop = (cadence) => {
+      return setInterval(function() {
+        runStrobo()
+      }, cadence);
+    };
+
+    loop(1000);
+
+    if (window.addEventListener) {
+      window.addEventListener("scroll", function() {
+        runStrobo();
+      }, false);
+
+      window.addEventListener("mousewheel", function() {
+        runStrobo();
+      }, false);
+      // Firefox
+      window.addEventListener("DOMMouseScroll", function() {
+        runStrobo();
+      }, false);
+    } else {
+      // // IE 6/7/8
+      window.attachEvent("onmousewheel", function() {
+        runStrobo();
+      }, false);
+    }
+
   }
+
+
+
 }
 
 const windowEl = document.querySelector('.strobo-gallery'); // TODO: not get all
