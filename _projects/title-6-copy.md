@@ -1,6 +1,7 @@
 ---
 title: Medium
 images:
+- "/v1538060226/stroboMEDIUM.jpg"
 - "/v1542468146/jakub%20-%2016.jpg"
 - "/v1542468087/jakub%20-%2015.jpg"
 - "/v1542467886/jakub%20-%2013.jpg"
