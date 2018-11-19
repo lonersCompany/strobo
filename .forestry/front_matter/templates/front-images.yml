@@ -25,8 +25,8 @@ fields:
     required: true
   default: project
 pages:
-- _projects/title-6-copy.md
 - _projects/exposure.md
+- _projects/title-6-copy.md
 - _projects/title-7.md
 - _projects/title-4.md
 - _projects/c-1526.md
