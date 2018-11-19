@@ -2,6 +2,9 @@
 title: Instant Cobra
 images:
 - "/v1538060225/stroboINSTANTCOBRA.jpg"
+- "/v1542661064/wDSC_1881.jpg"
+- "/v1542661066/wDSC_1874.jpg"
+- "/v1542660952/IMG_4912.jpg"
 layout: project
 date: 2018-10-19 23:13:49 +0000
 front-page-images:
