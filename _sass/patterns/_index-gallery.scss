@@ -12,8 +12,9 @@
 .index-gallery-slot {
 
   position: relative;
-  padding: 0 15px;
-  margin-bottom: 3em;
+  display: block;
+  margin-bottom: 5em;
+  padding: 15px;
 
   @include min-screen($layout-brekpoint) {
     flex-basis: $grid-1;
@@ -24,19 +25,15 @@
 
 .strobo-element {
 
+  opacity: 0;
+
   &:hover {
+    opacity: 1;
     z-index: 2;
   }
 
   &.active {
-    z-index: 1;
-  }
-}
-
-.strobo-slot {
-  z-index: 0;
-
-  &.active {
+    animation: flashtwo 0.5s;
     z-index: 1;
   }
 }

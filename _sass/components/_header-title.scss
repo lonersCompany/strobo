@@ -5,19 +5,11 @@
   cursor: pointer;
 }
 
-.animated-menu-left,
-.animated-menu-right {
-
-  transition: all 0.3s ease-in;
-  width: auto;
-  z-index: 10;
-  display: inline-block;
+.animated-menu .animated-menu-left {
+  animation: animated-menu-left 0.7s forwards;
 }
 
-.animated-menu-left {
-
-  .animated-menu & {
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
+.animated-menu-right {
+  opacity: 0;
+  animation: animated-menu-right 0.7s forwards;
 }

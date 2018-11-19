@@ -8,18 +8,18 @@
   transition-property: opacity, filter;
   margin-bottom: 50px;
 
-  @media(min-width: $screen-md) {
-
-    // .project.active & {
-    //   opacity: 0;
-    //   filter: blur(5px);
-    // }
-
-    .project:hover & {
-      opacity: 1;
-      filter: blur(0);
-    }
-  }
+  // @media(min-width: $screen-md) {
+  //
+  //   .project.active & {
+  //     opacity: 0;
+  //     filter: blur(5px);
+  //   }
+  //
+  //   .project:hover & {
+  //     opacity: 1;
+  //     filter: blur(0);
+  //   }
+  // }
 }
 
 .label {

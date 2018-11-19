@@ -4,21 +4,22 @@
   height: 100%;
   background-color: rgba(80, 50, 50, 1);
   z-index: 100;
-  animation: color-transition 10s ease-in infinite;
+  animation: color-transition 5s ease-in infinite;
   transition: opacity 500ms ease-out, visibility 0.7s;
   cursor: auto;
 }
 
 .logo-wrapper {
-  width: 300px;
+  width: 100vw;
+  max-width: 300px;
   margin: 0 auto;
   text-align: center;
   margin-top: 50vh;
   transform: translateY(-50%);
 }
 
-.logo-wrapper img {
-  width: 100%;
+.logo-wrapper svg {
+  max-width: 100%;
 }
 
 .load .loading {

@@ -3,6 +3,9 @@
 
 const stroboGallery = (mainEl) => {
 
+  const mobilespeed = 500;
+  const desktopspeed = 200;
+
   const mainArray = Array.from(mainEl.children);
 
   if(isMobile()) {
@@ -14,7 +17,7 @@ const stroboGallery = (mainEl) => {
         chooseWithAll(mainArray)
       }, cadence);
     };
-    loop(1000)
+    loop(mobilespeed)
 
     window.addEventListener("scroll", function() {
       chooseWithAll(mainArray)
@@ -65,7 +68,7 @@ const stroboGallery = (mainEl) => {
     const second = devidedArray[2].map((object) => {
       object.classList.add('second');
     });
-    
+
     const orderChooseSub = devidedArray.map((array) => randomChoose());
     const runStrobo = () => {
       let slotNumber = randomNumber(devidedArray.length);
@@ -78,7 +81,7 @@ const stroboGallery = (mainEl) => {
       }, cadence);
     };
 
-    loop(1000);
+    loop(desktopspeed);
 
     if (window.addEventListener) {
       window.addEventListener("scroll", function() {
