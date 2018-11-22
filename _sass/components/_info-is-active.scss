@@ -33,11 +33,11 @@
   transition: $transition-long;
 }
 
-.info-is-activated {
+.icon-cross {
+  transform: rotate(45deg);
+}
 
-  .icon-cross {
-    transform: rotate(45deg);
-  }
+.info-is-activated {
 
   .strobo-gallery {
     filter: blur(10px);
