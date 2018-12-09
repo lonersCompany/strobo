@@ -22,11 +22,11 @@ const stroboGallery = (mainEl) => {
     window.addEventListener("scroll", function() {
       chooseWithAll(mainArray)
     }, false);
+  }
 
-  } else {
+  if(isMobile() === false) {
     // two console// closures
     const bythree = (array) => {
-
 
       let allArray = [[], [], []];
 
@@ -101,12 +101,14 @@ const stroboGallery = (mainEl) => {
         runStrobo();
       }, false);
     }
-
   }
-
-
-
 }
 
 const windowEl = document.querySelector('.strobo-gallery'); // TODO: not get all
 if(windowEl){stroboGallery(windowEl)}
+
+
+const hoverGallery = (mainEl) => {
+  const mobilespeed = 500;
+  const desktopspeed = 200;
+}

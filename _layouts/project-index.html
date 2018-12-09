@@ -14,17 +14,13 @@
       </a>
     </h1>
 
-    <div class="index-gallery">
+    <div class="project-entries">
       {%- for project in site.projects -%}
-        <a class="index-gallery-slot" href="{{ site.baseurl }}{{ project.url }}">
-            <div class="f-c-secondary label center">04</div>
+        <a class="project-entry" href="{{ site.baseurl }}{{ project.url }}">
+            <div class="f-c-secondary label center render-number"></div>
             <h2 class="f-c-secondary label black center">{{ project.title }}</h2>
-            <div class="index-project" href="{{ site.baseurl }}{{ project.url }}">
-              {%- for image in project.front-page-images -%}
-              <div class="index-image">
-                {%- include image.html -%}
-              </div>
-              {%- endfor -%}
+            <div class="entry-gallery" href="{{ site.baseurl }}{{ project.url }}">
+                {%- include url-gallery.html -%}
             </div>
         </a>
       {%- endfor -%}
@@ -33,3 +29,24 @@
     {%- include scripts.html -%}
   </body>
 </html>
+
+
+<!-- <div class="project-entries">
+  {%- for project in site.projects -%}
+
+      <div class="swiper-container swiper-automat project-entry">
+        <div class="swiper-wrapper">
+          {%- for image in project.front-page-images -%}
+            <div class="swiper-slide">
+              <div class="swiper-img">
+                <a class="index-gallery-slot" href="{{ site.baseurl }}{{ project.url }}">
+                  {%- include image-ratio.html -%}
+                </a>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+
+  {%- endfor -%}
+</div> -->

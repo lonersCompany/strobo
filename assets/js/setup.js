@@ -2,7 +2,7 @@
 ---
 window.onload = function () {
   //initialize swiper when document ready
-  var mySwiper = new Swiper ('.swiper-container', {
+  var swiperDetail = new Swiper ('.swiper-controler', {
     direction: 'horizontal',
     navigation: {
       nextEl: '.swiper-next',
@@ -12,6 +12,7 @@ window.onload = function () {
       el: '.swiper-pagination',
       type: 'bullets',
     },
+    effect: "fade",
     loop: true
   })
 };

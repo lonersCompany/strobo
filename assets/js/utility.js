@@ -99,13 +99,23 @@ const hoverEvent = function(elements, activeClass) {
 // order choose element
 const orderChoose = (array) => {
 
-  let newNumber = 0;
-  const maximum = array.length;
+  let newIndex = 0;
+  const maximum = array.length - 1;
 
   return () => {
 
-    let oldNumber = newNumber++;
-    return newNumber
+    let oldIndex = newIndex;
+
+    if(oldIndex == maximum) {
+      newIndex = 0;
+    } else {
+      newIndex++
+    }
+
+    return {
+      oldIndex: oldIndex,
+      newIndex: newIndex,
+    }
   }
 }
 

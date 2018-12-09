@@ -1,0 +1,10 @@
+<div class="image images-rotation img--container"
+  data-images="
+  {%- for image in project.images -%}
+    {{ site.img_url }}ar_0.6,c_crop{{ image }}||
+  {%- endfor -%}
+  ">
+
+  {% assign image = project.images[0] %}
+  <img src="{{ site.img_url }}ar_0.6,c_crop{{ image }}" alt="{{ project.title }}, Jakub RA">
+</div>

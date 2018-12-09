@@ -20,7 +20,8 @@ $base-padding: 1.2rem;
 /*Animation*/
 $transition-base: all 0.3s ease-in;
 $transition-long: all 0.5s ease-in;
-$click-animation-duration: 0.5s;
+$base-animation-duration: 0.5s;
+$short-animation-duration: 0.2s;
 
 /*Colors*/
 $font-regular-color: rgba(0, 0, 0, 1);
