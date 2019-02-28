@@ -5,13 +5,14 @@ date: 2018-11-05 13:04:40 +0000
 ---
 ## JAKUB RA
 
-Visual artist, performer, art director, LGBTQ+ activist and head of the nonmodel agency New Aliens, based in Prague Czech Republic.
+Visual artist, performer, art director, LGBTQIA+ and eco activist and head of the nonmodel agency New Aliens, based in Prague Czech Republic.
 
 * [→ INSTAGRAM](https://www.instagram.com/jakubra____/ "instagram")
 * → MAIL
 * → SOTC
 
-Jakub Ra has long and intensively devoted himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to a body. Fashion, performance, food, a community of people, commercial world and dance.
+Jakub Ra has long and intensively devoted himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to  
+a body. Fashion, performance, food, a community of people, commercial world and dance.
 
 In the field of fashion he run multidisciplinary project SOTC (Sperm on the clothes) already for four years. In the medium of photography he depicts the theme of body in very comprehensive and profound contexts, metaphysically elaborating all its overlaps and trying to work with the body as a real open environment of today's existence.
 
@@ -19,7 +20,7 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
 ## Education
 
-* 2018–now,   
+* 2018–now,  
   Academy of Performing Arts in Prague - FAMU (MgA. New Media)
 * 2017  
   residence Studio Vortex, leader Antoine d'Agatha, Arles (France)
@@ -32,14 +33,15 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
 ## Solo exhibitions
 
-* 2017
-
+* 2018  
+  I love your outfit - performative reading, Punctum, Prague (CZ)
+* 2017  
   ANTIDIMENSION, Bohemian National Hall, New York (USA)
 * 2016
 
-  INSTANT COBRA, Matmos Gallery, Prague (CZ)   
-  RED HAUL SICKNESS, Korpus, (with PXS), Prague (CZ)   
-  BLUE MASS, Imperia Design, Bratislava (SK)   
+  INSTANT COBRA, Matmos Gallery, Prague (CZ)  
+  RED HAUL SICKNESS, Korpus, (with PXS), Prague (CZ)  
+  BLUE MASS, Imperia Design, Bratislava (SK)  
   DEFINITION OF BEAUTY, GRID Gallery, Prague (CZ)
 * 2015
 
@@ -49,7 +51,7 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
   LOST SYMBIOSIS, Art Gallery, Prostějov (CZ)
 * 2014
 
-  PROJECT GENDER, Museum and Gallery, Prostějov (CZ)   
+  PROJECT GENDER, Museum and Gallery, Prostějov (CZ)  
   (UN)REAL VIEW, Anne Frank Memorial, Brno (CZ)
 * 2013
 
@@ -59,7 +61,7 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
 * 2015
 
-  1st place, ,,MUS?“ DOX - Centre for Contemporary Art (Prague)   
+  1st place, ,,MUS?“ DOX - Centre for Contemporary Art (Prague)  
   final round, foto festival Český Krumlov
 * 2014
 
@@ -71,31 +73,33 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
   1st place - Photographer of the Year Junior
 
-## Group Exhibiton
+## Group Exhibitons
 
+* 2018  
+  Encontros da Imagem; Fake me..., Braga (Portugal)
 * 2017
 
-  Mezipatra Queer Festival, Transnational,Prague (CZ)   
-  Foto Leggendo, Roma (Italy)   
+  Mezipatra Queer Festival, Transnational,Prague (CZ)  
+  Foto Leggendo, Roma (Italy)  
   Raamatupood Puänt, Tallin (Estonia)
 * 2016
 
   Musrara School of Art, Jerusalem (Israel)
 * 2015
 
-  The Charlie Gallery, Karlovy Vary (CZ)   
-  Retrospektiva, Stredoeurópský dom fotografie, Bratislava (SK)   
-  open-air FOTO festival, the Stolen Gallery, Český Krumlov (CZ)   
+  The Charlie Gallery, Karlovy Vary (CZ)  
+  Retrospektiva, Stredoeurópský dom fotografie, Bratislava (SK)  
+  open-air FOTO festival, the Stolen Gallery, Český Krumlov (CZ)  
   MUS? Political Art, DOX Centre for Contemporary Art Prague (CZ)
 * 2014
 
-  Pokus/omyl, Tic gallery, Brno (CZ)   
-  Retrospektiva, The House of the lords of Kunštát, Brno (CZ)   
-  Bienále Brno - Off program, Moravská galerie Brno (CZ)   
-  Ukryto v umění vol.2, Kabinet MÚZ, Brno (CZ)   
+  Pokus/omyl, Tic gallery, Brno (CZ)  
+  Retrospektiva, The House of the lords of Kunštát, Brno (CZ)  
+  Bienále Brno - Off program, Moravská galerie Brno (CZ)  
+  Ukryto v umění vol.2, Kabinet MÚZ, Brno (CZ)  
   Camera obscura, Gallery Black line, Brno (CZ)
 * 2013
 
-  Portrét a figura, the supreme court building, Brno (CZ)   
-  Ukryto v umění, Kabinet MÚZ, Brno (CZ)   
+  Portrét a figura, the supreme court building, Brno (CZ)  
+  Ukryto v umění, Kabinet MÚZ, Brno (CZ)  
   Šuřka for Ida, Café club IDA, Brno (CZ)
