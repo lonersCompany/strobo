@@ -1,10 +1,5 @@
 <div class="info">
-  <h1 class="header-title center animated-menu-left">
-    about
-    <span class="icon-cross">
-      {%- include icon-cross.html -%}
-    </span>
-  </h1>
+  {%- include header-go-back.html content="about" -%}
   <div class="text-block">
     {% for list in site.about %}
           {{ list.content }}

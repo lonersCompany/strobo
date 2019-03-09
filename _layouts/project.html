@@ -2,15 +2,18 @@
 layout: default
 ---
 
+<h1 class="header-title center animated-menu-left">
+  <a href="{{site.url}}">
+  {{ page.title }}
+  <span class="icon-cross">
+    {%- include icon-cross.html -%}
+  </span>
+  </a>
+</h1>
 
 {%- include gallery-swiper.html -%}
-<h2 class="project-title center">
-  {{ page.title }}
-</h2>
-
 
 <div class="text-block">
   {{ content }}
 </div>
-
 {%- include footer.html -%}

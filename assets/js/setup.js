@@ -12,7 +12,8 @@ window.onload = function () {
       el: '.swiper-pagination',
       type: 'bullets',
     },
-    effect: "fade",
-    loop: true
+    effect: "slide",
+    loop: true,
+    autoHeight: true
   })
 };

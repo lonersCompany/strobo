@@ -1,7 +1,7 @@
 @keyframes color-transition {
-	0% {background: white}
-  30% {background: black}
-  100% {background: white}
+	0% {background: rgba(200, 200, 200, 1)}
+  30% {background: rgba(50, 50, 50, 1)}
+  100% {background: rgba(200, 200, 200, 1)}
 }
 
 @keyframes animated-menu-left {
