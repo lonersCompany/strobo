@@ -11,6 +11,8 @@ front-page-images:
 - "/v1557747824/parallemmind.jpg"
 
 ---
+[VIDEO HERE](https://youtu.be/iGKjdUZQ_sY)
+
 The Parallel Mind project responds to personal frustration that comes from exploring and practicing the transformative states of our mind. Chaos in thoughts and integral postpostmodern thinking were main tools for making conversations between two people. Each of them experienced a certain trans/flow of their minds.
 
 Abstract thinking about the world is linked to the esoteric quotes and problems of the Millennials generation. The main questions are: How to grasp the fragmented mind? How to work with a mental disorder? How do you understand the mutually indefinable relationships among more people? All this, in just digital conversations that seem to be getting more and more physically.
