@@ -18,3 +18,5 @@ The Parallel Mind project responds to personal frustration that comes from explo
 Abstract thinking about the world is linked to the esoteric quotes and problems of the Millennials generation. The main questions are: How to grasp the fragmented mind? How to work with a mental disorder? How do you understand the mutually indefinable relationships among more people? All this, in just digital conversations that seem to be getting more and more physically.
 
 The performance worked with the present time but in different layers. There were two performers that use their moves, gestures, and positions to expand the content of the conversations being projected. At the same time, they represent both, the authors of the texts and the anonymous LGBTQ + individuals in society. Conversations are recorded in live time, but author's identities are mixed. Projections represents kind of telepathy between performers.
+
+FAMU exhibition, Ankali club, January 2019
