@@ -9,7 +9,6 @@ images:
 layout: project
 front-page-images:
 - "/v1557747824/parallemmind.jpg"
-published: false
 
 ---
 The Parallel Mind project responds to personal frustration that comes from exploring and practicing the transformative states of our mind. Chaos in thoughts and integral postpostmodern thinking were main tools for making conversations between two people. Each of them experienced a certain trans/flow of their minds.
