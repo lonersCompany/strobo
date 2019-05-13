@@ -24,6 +24,7 @@ fields:
     required: true
   default: project
 pages:
+- _projects/residence-ini.md
 - _projects/parallel-mind.md
 - _projects/c-1526.md
 - _projects/b-6382.md
