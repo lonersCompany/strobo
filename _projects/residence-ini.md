@@ -1,8 +1,22 @@
 ---
 title: RESIDENCE INI
-images: []
+images:
+- "/v1558432565/Sni%CC%81mek-obrazovky-2019-04-29-v%C2%A014.50.15.jpg"
+- "/v1558432518/INIig.jpg"
+- "/v1558432586/DSC_0470.jpg"
+- "/v1558432584/DSC_0037.jpg"
+- "/v1558432587/DSC_0004.jpg"
+- "/v1558432538/56601003_2381812578517734_5285986765683818496_o.jpg"
+- "/v1558432560/55901999_2358623060836686_6864329995049762816_o.jpg"
+- "/v1558432551/55508076_2358622567503402_5478991652389388288_o.jpg"
+- "/v1558432549/54524409_2358703310828661_7810009938826100736_o.jpg"
+- "/v1558432550/54278367_2345261798839479_956463421245620224_o.jpg"
+- "/v1558432546/53830312_2345262865506039_3192717390349598720_o.jpg"
+- "/v1558432545/53315516_2318719741493685_3729514987257856000_o.jpg"
+- "/v1558432541/51795636_2297881076910885_1655789882078920704_o.jpg"
 layout: project
-front-page-images: []
+front-page-images:
+- "/v1558432485/54799029_2358622600836732_2351273876190658560_o.jpg"
 
 ---
 The Residence address the issues of the nature and vulnerability of our self, which are undoubtedly associated with identity, ego, gender, and society. In a safe environment where there is no hierarchy, however, new visions of the hybrid future can be developed. Keywords are a synthesis, intuition, community and consciousness. The residence was orientated mainly into community based events open to public:
