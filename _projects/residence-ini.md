@@ -3,7 +3,6 @@ title: RESIDENCE INI
 images: []
 layout: project
 front-page-images: []
-published: false
 
 ---
 The Residence address the issues of the nature and vulnerability of our self, which are undoubtedly associated with identity, ego, gender, and society. In a safe environment where there is no hierarchy, however, new visions of the hybrid future can be developed. Keywords are a synthesis, intuition, community and consciousness. The residence was orientated mainly into community based events open to public:
