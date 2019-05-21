@@ -1,6 +1,6 @@
 ---
 title: About, úprava textu
-date: 2018-11-05 13:04:40 +0000
+date: '2018-11-05T13:04:40.000+00:00'
 
 ---
 ## JAKUB RA
@@ -8,8 +8,8 @@ date: 2018-11-05 13:04:40 +0000
 Visual artist, performer, art director, LGBTQIA+ and eco activist and head of the nonmodel agency New Aliens, based in Prague Czech Republic.
 
 * [→ INSTAGRAM](https://www.instagram.com/jakubra____/ "instagram")
-* → MAIL
-* → SOTC
+* [→ SOTC](https://spermontheclothes.tumblr.com/)
+* jakub@newaliensagency.com
 
 Jakub Ra has long and intensively devoted himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to  
 a body. Fashion, performance, food, a community of people, commercial world and dance.
@@ -57,6 +57,19 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
   SOUL, Art Gallery, Prostějov (CZ)
 
+## Talks
+
+* 2019  
+  Pecha Kucha vol.43 - Mužnost, Bratislava (SK)  
+  Dotek, fashion event, Olomouc (CZ)
+* 2018  
+  PhaseBook festival, CAMP, Prague (CZ)  
+  [Pecha Kucha vol.10 - Textil, Jihlava (CZ)](https://www.youtube.com/watch?v=1ttrcLE3qIA)
+* 2017  
+  Mezipatra QFF, discussion of authors, Prague (CZ)
+* 2015-now  
+  Long-term project ,,Živá knihovna'' with Amnesty International
+
 ## Awards
 
 * 2015
@@ -75,6 +88,9 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
 ## Group Exhibitons
 
+* 2019  
+  [Jackpot Jacks II, MeetFactory, Prague (CZ)](https://www.facebook.com/pg/Ateli%C3%A9r-fotografie-a-nov%C3%BDch-m%C3%A9di%C3%AD-FAMU-1482123141854446/photos/?tab=album&album_id=2217317305001689)  
+  [Jackpot Jacks I, Ankali, Prague (CZ)](https://anka.li/news/2019/02/jackpot-jacks-at-ankali/?fbclid=IwAR2ORb3QBruyz2GAACh3EiVgmMkaDmwFkfXO17vX-Xlm1j8_au57hWcCD-g)
 * 2018  
   Encontros da Imagem; Fake me..., Braga (Portugal)
 * 2017
