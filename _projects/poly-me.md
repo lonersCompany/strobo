@@ -9,7 +9,6 @@ images:
 layout: project
 front-page-images:
 - "/v1559662134/ininin.jpg"
-published: false
 
 ---
 Tribute to polyamory and polygons. Mutual sex-care. Virtual relationships.
