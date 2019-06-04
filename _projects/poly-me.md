@@ -12,8 +12,10 @@ front-page-images:
 published: false
 
 ---
-Tribute to polyamory and polygons. Mutual sex-care. Virtual relationships. 
+Tribute to polyamory and polygons. Mutual sex-care. Virtual relationships.
 
 I decided to create virtual 3D statue which helped me to go over boundaries of reality. To have a long arm which penetrates through the ass. To look into one moment which can be hold for ages. The set of models manifest relationships and symbolic gestures. I asked the first Czech digital fashion label - Transformer Jacket to participate in VR environment. Because the future of fashion is body itself and is digital.
 
 This project was created in cooperation with Žil Vostálová and technical support by Lucas Saidl.
+
+[VIDEO HERE](https://www.youtube.com/watch?v=_PL132yhCiA&fbclid=IwAR1tdTCHwpFO6qnqZQ_JHap4Iy-DoBhPaa65zkaAKpFZOl8A1YvLxl6-ii0)
