@@ -87,7 +87,7 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
   1st place - Photographer of the Year Junior
 
-## Group Exhibitons
+## Group Exhibitions
 
 * 2019  
   [Jackpot Jacks II, MeetFactory, Prague (CZ)](https://www.facebook.com/pg/Ateli%C3%A9r-fotografie-a-nov%C3%BDch-m%C3%A9di%C3%AD-FAMU-1482123141854446/photos/?tab=album&album_id=2217317305001689)  
