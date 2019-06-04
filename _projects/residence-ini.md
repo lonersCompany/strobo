@@ -1,7 +1,6 @@
 ---
 title: RESIDENCE INI
 images:
-- "/v1558432565/Sni%CC%81mek-obrazovky-2019-04-29-v%C2%A014.50.15.jpg"
 - "/v1558432518/INIig.jpg"
 - "/v1558432586/DSC_0470.jpg"
 - "/v1558432584/DSC_0037.jpg"
