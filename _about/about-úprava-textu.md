@@ -5,7 +5,7 @@ date: '2018-11-05T13:04:40.000+00:00'
 ---
 ## JAKUB RA
 
-Visual artist, performer, art director, LGBTQIA+ and eco activist and head of the nonmodel agency New Aliens, based in Prague Czech Republic.
+Visual artist, performer, art director, LGBTQIA+ activist and head of the nonmodel agency New Aliens, based in Prague Czech Republic.
 
 * [→ INSTAGRAM](https://www.instagram.com/jakubra____/ "instagram")
 * [→ SOTC](https://spermontheclothes.tumblr.com/)
@@ -60,6 +60,7 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 ## Talks
 
 * 2019  
+  Mixed Reality Fashion III, Prague (CZ)  
   Pecha Kucha vol.43 - Mužnost, Bratislava (SK)  
   Dotek, fashion event, Olomouc (CZ)
 * 2018  
