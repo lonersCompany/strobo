@@ -120,3 +120,8 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
   Portrét a figura, the supreme court building, Brno (CZ)  
   Ukryto v umění, Kabinet MÚZ, Brno (CZ)  
   Šuřka for Ida, Café club IDA, Brno (CZ)
+
+## Represented in the collections
+
+* Galerie Václava Špály
+* Galerie umění Prostějov
