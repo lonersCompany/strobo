@@ -1,0 +1,11 @@
+{
+  "name": "strobo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lonersCompany/strobo.git",
+  "author": "Schittaci-air <barak.simon.as@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "bundle exec jekyll serve --watch"
+  }
+}

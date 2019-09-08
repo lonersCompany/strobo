@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/12.3.1/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js start
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.3.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/simonbarak/Dev/strobo/package.json: Unexpected string in JSON at position 206
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "strobo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/lonersCompany/strobo.git",
+    "author": "Schittaci-air <barak.simon.as@gmail.com>",
+    "license": "MIT"
+    "scripts": {
+      "start": "bundle exec jekyll serve"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

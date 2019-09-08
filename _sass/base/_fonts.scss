@@ -4,31 +4,13 @@
 // ——————------------
 
 @font-face {
-  font-family: 'serif';
-  src: url('../fonts/serif/serif.woff2') format('woff2'),
-  url('../fonts/serif/serif.woff') format('woff'),
-  url('../fonts/serif/serif.ttf') format('truetype'),
-  url('../fonts/serif/serif.svg') format('svg');
-  // font-weight: 200;
-  // font-style: normal;
+  font-family: "space-grotesk";
+  src: url("../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2") format("woff2"),
+    url("../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff") format("woff");
 }
 
-@font-face {
-  font-family: 'sans-serif';
-  src: url('../fonts/sans-serif/sans-serif.woff2') format('woff2'),
-  url('../fonts/sans-serif/sans-serif.woff') format('woff'),
-  url('../fonts/sans-serif/sans-serif.ttf') format('truetype'),
-  url('../fonts/sans-serif/sans-serif.svg') format('svg');
-  // font-weight: 200;
-  // font-style: normal;
-}
-
-@font-face {
-  font-family: 'sans-serif-black';
-  src: url('../fonts/sans-serif/sans-serif-black.woff2') format('woff2'),
-  url('../fonts/sans-serif/sans-serif-black.woff') format('woff'),
-  url('../fonts/sans-serif/sans-serif-black.ttf') format('truetype'),
-  url('../fonts/sans-serif/sans-serif-black.svg') format('svg');
-  // font-weight: 200;
-  // font-style: normal;
-}
+// @font-face {
+//   font-family: "space-grotesk";
+//   src: url("../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2") format("woff2"),
+//     url("../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff") format("woff");
+// }

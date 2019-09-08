@@ -1,62 +1,62 @@
 // front-end is base on rem sizes;
 
 html {
-	// mobile
-	// background-color: blue;
-	font-size: 18px;
+  // mobile
+  // background-color: blue;
+  font-size: 18px;
   font-family: $font-regular;
-	color: $font-regular-color;
-	letter-spacing: 0.07em;
+  color: $font-regular-color;
+  letter-spacing: 0.07em;
 
-	// iphone 6
-	@include min-screen(375px) {
-		font-size: 18px;
-	}
+  // iphone 6
+  @include min-screen(375px) {
+    font-size: 18px;
+  }
 
-	// ipad portrait
-	@include min-screen($screen-lg) {
-		font-size: 20px;
-	}
+  // ipad portrait
+  @include min-screen($screen-lg) {
+    font-size: 20px;
+  }
 
-	// ipad landscape / minibook
-	@include min-screen(1024px) {
-		font-size: 20px;
-	}
+  // ipad landscape / minibook
+  @include min-screen(1024px) {
+    font-size: 20px;
+  }
 
-	// notebook
-	@include min-screen(1200px) {
-		font-size: 20px;
-	}
+  // notebook
+  @include min-screen(1200px) {
+    font-size: 20px;
+  }
 }
 
 h1 {
-	width: 100%;
-  font-size: 1em;
+  width: 100%;
+  font-size: 2em;
   line-height: 2rem;
   font-weight: normal;
-	margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 h2 {
-	font-family: $font-secondary;
-	text-transform: uppercase;
-	font-size: 1rem;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+  font-size: 1rem;
 
   .info & {
-		text-align: center;
-		margin-bottom: 1em;
+    text-align: center;
+    margin-bottom: 1em;
 
-		&:not(:first-child) {
-			margin-top: 7rem;
-		}
-	}
+    &:not(:first-child) {
+      margin-top: 7rem;
+    }
+  }
 }
 
 h3 {
   font-size: 3rem;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
-	letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
 }
 
 h4 {
@@ -75,21 +75,30 @@ table {
   }
 }
 
-p  {
-	font-size: $font-regular-size;
-	line-height: $font-regular-height;
-	margin-top: $padding-l;
-	margin-bottom: $padding-l;
+p {
+  font-size: $font-regular-size;
+  line-height: $font-regular-height;
+  margin-top: $padding-l;
+  margin-bottom: $padding-l;
 }
 
 a {
-	text-decoration: none;
-	color: $font-regular-color;
+  text-decoration: none;
+  color: $font-regular-color;
 
-	&:hover {
-		text-decoration: none;
-		color: $secondary-color;
-	}
+  &:hover {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+}
+p a {
+  text-decoration: underline;
+  color: $font-link-color;
+
+  &:hover {
+    text-decoration: underline;
+    color: $font-link-color;
+  }
 }
 
 // p a,

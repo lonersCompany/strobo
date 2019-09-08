@@ -2,16 +2,16 @@
 $grid-1: (100% / 3) * 1;
 $grid-2: (100% / 3) * 2;
 $grid-3: (100% / 3) * 3;
-$grid-3: (100% / 6) * 1;
+$grid-50: (100% / 2) * 1;
 
-$body-heigth: 100vh;//calc(100vh - 89px);
+$body-heigth: 100vh; //calc(100vh - 89px);
 
 $page-max-width: 1700px;
 
 /*Typo*/
-$font-regular: 'sans-serif', helvetica, arial;
-$font-secondary: 'sans-serif-black', helvetica, arial;
-$font-regular-size: 1rem;
+$font-regular: "space-grotesk", helvetica, arial;
+$font-secondary: "space-grotesk", helvetica, arial;
+$font-regular-size: 1.5rem;
 $font-regular-height: 1.25em;
 $font-table-height: 1.5em;
 $paragraf-max-width: 730px;
@@ -22,24 +22,25 @@ $transition-base: all 0.3s ease-in;
 $transition-long: all 0.5s ease-in;
 $base-animation-duration: 0.5s;
 $short-animation-duration: 0.2s;
+$long-animation-duration: 1.5s;
 
 /*Colors*/
 $font-regular-color: rgba(255, 255, 255, 1);
-$backgroud-color: rgba(0, 0, 0, 1); //rgba(50, 10, 10, 1);
+$font-link-color: rgb(104, 114, 255);
+$backgroud-color: rgb(230, 0, 57); //rgba(50, 10, 10, 1);
 $backgroud-color-transparent: transparent;
-$secondary-color: white;//#F1D6AF;
+$secondary-color: white; //#F1D6AF;
 
 /*Borders*/
 $base-border: 1px solid $font-regular-color;
 
-
 // Screen max breakpoints
-$screen-xs:   320px;
-$screen-sm:   480px;
-$screen-md:   640px;
-$screen-lg:   992px;
-$screen-xl:   1200px;
-$screen-xxl:  1440px;
+$screen-xs: 320px;
+$screen-sm: 480px;
+$screen-md: 640px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1440px;
 $layout-brekpoint: $screen-md;
 
 $padding-base: 25px;
