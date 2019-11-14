@@ -5,14 +5,14 @@ date: '2018-11-05T13:04:40.000+00:00'
 ---
 ## JAKUB RA
 
-Visual artist, performer, art director, LGBTQIA+ activist and head of the nonmodel agency New Aliens, based in Prague Czech Republic.
+Photographer, performer, art director, LGBTQIA+ activist and head of New Aliens Agency.
 
 * [→ INSTAGRAM](https://www.instagram.com/jakubra____/ "instagram")
 * [→ SOTC](https://spermontheclothes.tumblr.com/)
 * jakub@newaliensagency.com
 
-Jakub Ra has long and intensively devoted himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to  
-a body. Fashion, performance, food, a community of people, commercial world and dance.
+Visual artist Jakub Ra has long and intensively devoted himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to  
+a body. Photography, clothes, performance, food, dance, commercial modeling or new technology.
 
 In the field of fashion he run multidisciplinary project SOTC (Sperm on the clothes) already for four years. In the medium of photography he depicts the theme of body in very comprehensive and profound contexts, metaphysically elaborating all its overlaps and trying to work with the body as a real open environment of today's existence.
 
@@ -20,10 +20,13 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
 ## Education
 
+* 2020
+
+  École nationale supérieure des arts décoratifs, Paris (FR)
 * 2018–now,  
   Academy of Performing Arts in Prague - FAMU (MgA. New Media)
 * 2017  
-  residence Studio Vortex, leader Antoine d'Agatha, Arles (France)
+  residence Studio Vortex, leader Antoine d'Agatha, Arles (FR)
 * 2015—2018
 
   Academy of Performing Arts in Prague - FAMU (BcA. Photography and Intermedia)
@@ -33,8 +36,15 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
 ## Solo exhibitions
 
+* 2019
+
+  PRENATAL performance, Kunsthale, DAAVS Festival, Košice (SK)
+
+  AIRDROPME, Gallery 207 - UMPRUM, Prague (CZ)
+
+  R-RATED, 1.2.3. Gallery, Petrohradská Kolektiv, Prague (CZ)
 * 2018  
-  I love your outfit - performative reading, Punctum, Prague (CZ)
+  I LOVE YOUR OUTFIT - performative reading, Punctum, Prague (CZ)
 * 2017  
   ANTIDIMENSION, Bohemian National Hall, New York (USA)
 * 2016
@@ -89,7 +99,13 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
 ## Group Exhibitions
 
-* 2019  
+* 2019
+
+  New Translation, Kunsthale, VUNU Gallery, Košice (SK)
+
+  Díky, že můžem, Radost, Prague (CZ)
+
+  The Well Deserved Rest, Mesiac fotografie, Bratislava (SK)   
   [Jackpot Jacks II, MeetFactory, Prague (CZ)](https://www.facebook.com/pg/Ateli%C3%A9r-fotografie-a-nov%C3%BDch-m%C3%A9di%C3%AD-FAMU-1482123141854446/photos/?tab=album&album_id=2217317305001689)  
   [Jackpot Jacks I, Ankali, Prague (CZ)](https://anka.li/news/2019/02/jackpot-jacks-at-ankali/?fbclid=IwAR2ORb3QBruyz2GAACh3EiVgmMkaDmwFkfXO17vX-Xlm1j8_au57hWcCD-g)
 * 2018  
