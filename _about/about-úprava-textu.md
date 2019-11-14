@@ -8,7 +8,6 @@ date: '2018-11-05T13:04:40.000+00:00'
 Photographer, performer, art director, LGBTQIA+ activist and head of New Aliens Agency.
 
 * [→ INSTAGRAM](https://www.instagram.com/jakubra____/ "instagram")
-* [→ SOTC](https://spermontheclothes.tumblr.com/)
 * jakub@newaliensagency.com
 
 Visual artist Jakub Ra has long and intensively devoted himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to  
