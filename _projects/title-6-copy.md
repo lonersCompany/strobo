@@ -1,5 +1,5 @@
 ---
-title: Medium
+title: MEDIUM
 images:
 - "/v1542468038/Jakub%20-%201.jpg"
 - "/v1542468081/jakub%20-%2010.jpg"
@@ -11,7 +11,7 @@ images:
 - "/v1542467886/jakub%20-%2013.jpg"
 - "/v1542468130/jakub%20-%203.jpg"
 layout: project
-date: 2018-10-19 23:13:15 +0000
+date: '2018-10-19T23:13:15.000+00:00'
 front-page-images:
 - "/v1542468038/Jakub%20-%201.jpg"
 - "/v1538060226/stroboMEDIUM.jpg"
