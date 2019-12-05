@@ -24,6 +24,7 @@ fields:
     required: true
   default: project
 pages:
+- _projects/title-7.md
 - _projects/a-2938.md
 - _projects/title-6-copy.md
 - _projects/c-1526.md
@@ -32,5 +33,4 @@ pages:
 - _projects/parallel-mind.md
 - _projects/exposure.md
 - _projects/project-5.md
-- _projects/title-7.md
 - _projects/title-6.md
