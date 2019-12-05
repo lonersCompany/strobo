@@ -24,11 +24,11 @@ fields:
     required: true
   default: project
 pages:
+- _projects/c-1526.md
 - _projects/poly-me.md
 - _projects/residence-ini.md
 - _projects/parallel-mind.md
 - _projects/exposure.md
-- _projects/c-1526.md
 - _projects/a-2938.md
 - _projects/project-5.md
 - _projects/title-6-copy.md
