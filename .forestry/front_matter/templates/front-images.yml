@@ -24,6 +24,7 @@ fields:
     required: true
   default: project
 pages:
+- _projects/title-6.md
 - _projects/exposure.md
 - _projects/project-5.md
 - _projects/title-7.md
@@ -33,4 +34,3 @@ pages:
 - _projects/poly-me.md
 - _projects/residence-ini.md
 - _projects/parallel-mind.md
-- _projects/title-6.md

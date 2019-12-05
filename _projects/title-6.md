@@ -1,5 +1,5 @@
 ---
-title: Body Language
+title: BODY LANGUAGE
 images:
 - "/v1538060226/stroboCETAGENCY.jpg"
 - "/v1542661204/chhh.jpg"
@@ -9,7 +9,7 @@ images:
 - "/v1542661258/6tisk.jpg"
 - "/v1542661244/2TISK.jpg"
 layout: project
-date: 2018-10-19 23:13:15 +0000
+date: '2018-10-19T23:13:15.000+00:00'
 front-page-images:
 - "/v1538060226/stroboCETAGENCY.jpg"
 
