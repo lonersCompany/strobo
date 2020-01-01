@@ -7,15 +7,14 @@ date: '2018-11-05T13:04:40.000+00:00'
 
 Photographer, art director, performer, LGBTQIA+ activist and head of [New Aliens Agency](http://newaliensagency.com).
 
-* [→ INSTAGRAM](https://www.instagram.com/jakubra____/ "instagram")
-* jakub@newaliensagency.com
-
 Visual artist Jakub Ra has long and intensively devote himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to  
-a body. His main media are photography, video, clothes, performance and virtual reality, but he is also open to hybrid projects with activistic approach.
+a body. His main media are photography, video, clothes, performance and environment, but he is also open to hybrid projects with activistic approach.
 
-In the field of fashion he run collaborative label [SOTC](https://www.instagram.com/spermontheclothes/). In the medium of photography he depicts the theme of body in very comprehensive and profound contexts, metaphysically elaborating all its overlaps and trying to work with the body as a real open environment of today's existence.
+In the medium of photography he depicts the theme of body in very comprehensive and profound contexts, metaphysically elaborating all its overlaps and trying to work with the body as a real open environment of today's existence.
 
-His work is therefore crucial in terms of carnal aesthetics and the discovery of beauty. He is not afraid of internal structures, unknown contexts or extreme positions, so everyone who deals with body weight, physicality, and body survival in overcoming metaphysical being, spirituality, and transformation to the transcendence of bodily experience should pay attention to his work. – text by PXS
+In the field of fashion he run collaborative label [SOTC](https://www.instagram.com/spermontheclothes/) which main aim is to create critical dialogue within fashion industry, fine art and body politics.
+
+His work is therefore crucial in terms of carnal aesthetics and the discovery of beauty. He is not afraid of internal structures, unknown contexts or extreme positions, so everyone who deals with body weight, physicality, and body survival in overcoming metaphysical being, spirituality, and transformation to the transcendence of bodily experience should pay attention to his work. – text by Mgr Peter Susan Sagat PhD.
 
 ## Education
 
@@ -69,7 +68,7 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 ## Talks
 
 * 2019  
-  Mixed Reality Fashion III, Prague (CZ)  
+  [Mixed Reality Fashion III, Prague (CZ)](https://mixedrealityfashion.org/howtowearit)  
   [Pecha Kucha vol.43 - Mužnost, Bratislava (SK)](https://youtu.be/yP0O8iHWVQ8)  
   Dotek, fashion event, Olomouc (CZ)
 * 2018  
@@ -122,7 +121,7 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
   The Charlie Gallery, Karlovy Vary (CZ)  
   Retrospektiva, Stredoeurópský dom fotografie, Bratislava (SK)  
   Open-air FOTO festival, the Stolen Gallery, Český Krumlov (CZ)  
-  MUS? Political Art, DOX Centre for Contemporary Art Prague (CZ)
+  [MUS? Political Art, DOX Centre for Contemporary Art Prague (CZ)](https://umeleckestrevo.cz/competition-year/politicke-umeni/#&gid=psgal_930_1&pid=4)
 * 2014
 
   Pokus/omyl, Tic gallery, Brno (CZ)  
@@ -140,3 +139,8 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
 * Galerie Václava Špály
 * Galerie umění Prostějov
+
+## Contact
+
+* jakub@newaliensagency.com
+* [@jakubra____](https://www.instagram.com/jakubra____/)
