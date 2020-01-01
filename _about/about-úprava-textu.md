@@ -143,4 +143,5 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 ## Contact
 
 * jakub@newaliensagency.com
-* [@jakubra____](https://www.instagram.com/jakubra____/)
+
+  [@jakubra____](https://www.instagram.com/jakubra____/)
