@@ -1,6 +1,7 @@
 ---
 title: About, úprava textu
 date: '2018-11-05T13:04:40.000+00:00'
+published: false
 
 ---
 ## JAKUB RA
@@ -143,5 +144,4 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 ## Contact
 
 * jakub@newaliensagency.com
-
-  [@jakubra____](https://www.instagram.com/jakubra____/)
+* [Instagram](https://www.instagram.com/jakubra____/)
