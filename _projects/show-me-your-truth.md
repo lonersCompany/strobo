@@ -13,7 +13,6 @@ images:
 layout: project
 front-page-images:
 - "/v1578043561/wDSC_0253_j8t9hw.jpg"
-published: false
 
 ---
 Beauty editorial with New Aliens Agency.
