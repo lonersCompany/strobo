@@ -1,8 +1,10 @@
 ---
 title: STATEMENTS
-images: []
+images:
+- "/v1578045027/w111a_dk17ww.jpg"
 layout: project
-front-page-images: []
+front-page-images:
+- "/v1578045027/wwww_ifzper.jpg"
 published: false
 
 ---
