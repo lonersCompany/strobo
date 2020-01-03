@@ -12,3 +12,4 @@ front-page-images:
 published: false
 
 ---
+Work in progress experimental visual documentary about people with alopecia. I'm looking for their visual identity. I shoot them as stolen objects. I play with their expression, distort the body texture, make them visually even more different than what society sometimes considers them to be.
