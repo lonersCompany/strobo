@@ -5,7 +5,6 @@ images:
 layout: project
 front-page-images:
 - "/v1578045027/wwww_ifzper.jpg"
-published: false
 
 ---
 I decided to develop one of the medium I often use in my performance art. This medium is text - words, metaphors and statements.   
