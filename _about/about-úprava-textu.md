@@ -16,6 +16,8 @@ In the field of fashion he run collaborative label [SOTC](https://www.instagram.
 
 His work is therefore crucial in terms of carnal aesthetics and the discovery of beauty. He is not afraid of internal structures, unknown contexts or extreme positions, so everyone who deals with body weight, physicality, and body survival in overcoming metaphysical being, spirituality, and transformation to the transcendence of bodily experience should pay attention to his work. – text by Mgr Peter Susan Sagat PhD.
 
+[VIMEO](https://vimeo.com/user26222134)          [INSTAGRAM](https://www.instagram.com/jakubra____/)
+
 ## Education
 
 * 2020
@@ -143,4 +145,3 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 ## Contact
 
 * jakub@newaliensagency.com
-* [Instagram](https://www.instagram.com/jakubra____/)
