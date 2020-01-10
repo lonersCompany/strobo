@@ -1,11 +1,14 @@
 ---
 title: About, úprava textu
 date: '2018-11-05T13:04:40.000+00:00'
+published: false
 
 ---
 ## JAKUB RA
 
 Photographer, art director, performer, LGBTQIA+ activist and head of [New Aliens Agency](http://newaliensagency.com).
+
+## Fine Art
 
 Visual artist Jakub Ra has long and intensively devote himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to  
 a body. His main media are photography, video, clothes, performance and environment, but he is also open to hybrid projects with activistic approach.
@@ -16,6 +19,10 @@ In the field of fashion he run collaborative label [SOTC](https://www.instagram.
 
 His work is therefore crucial in terms of carnal aesthetics and the discovery of beauty. He is not afraid of internal structures, unknown contexts or extreme positions, so everyone who deals with body weight, physicality, and body survival in overcoming metaphysical being, spirituality, and transformation to the transcendence of bodily experience should pay attention to his work. – text by Mgr Peter Susan Sagat PhD.
 
+## Commercial
+
+Jakub Ra has had several commercial shootings, from fashion designers, jewelry designers to large commercial companies. He tries to develop with clients individual creative concepts which suits the best for both. He also has a lot of experience with studio lighting direction and assisting on big commercial campaigns.  
+  
 [VIMEO](https://vimeo.com/user26222134)          [INSTAGRAM](https://www.instagram.com/jakubra____/)
 
 ## Education
