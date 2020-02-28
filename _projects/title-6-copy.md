@@ -1,11 +1,13 @@
 ---
 title: MEDIUM
 images:
+- "/v1582905360/Capture_d_%C3%A9cran_2020-02-28_%C3%A0_16.54.59_htxflu.png"
 - "/v1582903994/IMG_7740_ymvort.jpg"
 - "/v1582903996/IMG_7947_exci1m.jpg"
 - "/v1542468038/Jakub%20-%201.jpg"
 - "/v1582903995/IMG_4623_naykqg.jpg"
 - "/v1542468081/jakub%20-%2010.jpg"
+- "/v1582905359/Capture_d_%C3%A9cran_2020-02-28_%C3%A0_16.55.15_fq13gx.png"
 - "/v1542468043/jakub%20-%209.jpg"
 - "/v1542468146/jakub%20-%207.jpg"
 - "/v1538060226/stroboMEDIUM.jpg"
