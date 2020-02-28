@@ -8,4 +8,4 @@ front-page-images:
 - "/v1538060225/stroboSELFDECONSTRUCTION.jpg"
 
 ---
-Selfportrait. Tribute to Francis Bacon. Decomposition of human conch as the disintegration of my consciousness. The absence of catching the reality,
+Selfportrait. Decomposition of human conch as the disintegration of my consciousness. The absence of catching the reality.
