@@ -16,6 +16,7 @@ images:
 layout: project
 date: '2018-10-19T23:13:15.000+00:00'
 front-page-images:
+- "/v1582904960/Capture_d_%C3%A9cran_2020-02-27_%C3%A0_17.33.39_wg0lmu.png"
 - "/v1538060226/stroboCETAGENCY.jpg"
 
 ---
