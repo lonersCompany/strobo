@@ -17,7 +17,6 @@ layout: project
 date: '2018-10-19T23:13:15.000+00:00'
 front-page-images:
 - "/v1538060226/stroboCETAGENCY.jpg"
-published: false
 
 ---
 This series uses the body and portrait in very comprehensive and deep contexts. Metaphysically elaborates its aspects like spirituality, connection, platonic love, relationships, gender or anxiety. 
