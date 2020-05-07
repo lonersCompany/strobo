@@ -3,9 +3,7 @@ title: About, úprava textu
 date: '2018-11-05T13:04:40.000+00:00'
 
 ---
-## JAKUB RA
-
-Photographer, art director, performer, LGBTQIA+ activist and head of [New Aliens Agency](http://newaliensagency.com).
+## WEBSITE IS UNDER RECONSTRUCTION
 
 ## Fine Art
 
