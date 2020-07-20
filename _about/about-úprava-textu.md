@@ -3,9 +3,9 @@ title: About, úprava textu
 date: '2018-11-05T13:04:40.000+00:00'
 
 ---
-## JAKUB RA
+## WEBSITE IS UNDER RECONSTRUCTION
 
-Photographer, art director, performer, LGBTQIA+ activist and head of [New Aliens Agency](http://newaliensagency.com).
+## Fine Art
 
 Visual artist Jakub Ra has long and intensively devote himself to the body as the central phenomenon of his work. That is why he works with everything which is connected to  
 a body. His main media are photography, video, clothes, performance and environment, but he is also open to hybrid projects with activistic approach.
@@ -15,6 +15,10 @@ In the medium of photography he depicts the theme of body in very comprehensive 
 In the field of fashion he run collaborative label [SOTC](https://www.instagram.com/spermontheclothes/) which main aim is to create critical dialogue within fashion industry, fine art and body politics.
 
 His work is therefore crucial in terms of carnal aesthetics and the discovery of beauty. He is not afraid of internal structures, unknown contexts or extreme positions, so everyone who deals with body weight, physicality, and body survival in overcoming metaphysical being, spirituality, and transformation to the transcendence of bodily experience should pay attention to his work. – text by Mgr Peter Susan Sagat PhD.
+
+## Commercial
+
+Jakub Ra has had several commercial shootings, from fashion designers, jewelry designers to large commercial companies. He tries to develop with clients individual creative concepts which suits the best for both. He also has a lot of experience with studio lighting direction and assisting on big commercial campaigns.
 
 [VIMEO](https://vimeo.com/user26222134)          [INSTAGRAM](https://www.instagram.com/jakubra____/)
 
@@ -99,11 +103,14 @@ His work is therefore crucial in terms of carnal aesthetics and the discovery of
 
 ## Group Exhibitions
 
+* 2020  
+  Projekt Alopecia, Diera do sveta, Liptovský Mikuláš (SK)
 * 2019
 
   [New Translation, Kunsthale, VUNU Gallery, Košice (SK)](https://www.facebook.com/pg/vunuvunuvunu/photos/?tab=album&album_id=2044777949001559&__xts__%5B0%5D=68.ARDa_HVBZBrhY5Kb2NVZvlNwI0kg0nQgrGdVR18ZdSo4m6U5U4N733ITqyRA_W9wUCS_Q9-UOrfzqHz6UrqHMiScOwh1PR_az8gF66WlKTgtgYNw_gDRNjMN7rHiZbIeHb7w33UGf5CqVcZSVAWFg-gJt3_XA9rLlIIptJrYHoMB5tgCdR9CBpRm9AeZadFGUK3Sp2ua7w6MZeHwZ6x2PgU8eTcXRvzbQHnPci0iga_ZGVbGfaljPST6rRojHQWOuTF2vfgkkBH7xtaqB8_W-YMlfJmjHn5JfMJMD4bePG1hAUxD89-87wDW_rsGi8x4TCL0j4fVhpCTHskEm47Gid95DDOO8H1DosryFyyFsGsl2I0FRXvVSPbeuEBlRQnhFkDfvC8Uf_UjbvYwR50pFhEeRYWICw-brYD5IzecXfvmqu_gTZ8DpqEKypW2xh6BBt1BXJ4R7o2zUqX_WpMvW0aNCbAFeNs4hF6Vry_vNZcMMMZeqMapTx2PWZiUxSUgCH7hyv5H0Mds8NO_OQokG5RSiuZ2jxbAjPyhug&__tn__=-UC-R)
 
-  Díky, že můžem, Radost, Prague (CZ)
+  Díky, že můžem, Radost, Prague (CZ)  
+  Projekt Alopecia, Lom, Bratislava (SK)
 
   The Well Deserved Rest, Mesiac fotografie, Bratislava (SK)  
   [Jackpot Jacks II, MeetFactory, Prague (CZ)](https://www.facebook.com/pg/Ateli%C3%A9r-fotografie-a-nov%C3%BDch-m%C3%A9di%C3%AD-FAMU-1482123141854446/photos/?tab=album&album_id=2217317305001689)  
