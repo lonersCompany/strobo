@@ -1,8 +1,6 @@
-{% for project in site.projects %}
-  {%- for image in project.front-page-images -%}
-  <a href="{{ site.baseurl }}{{ project.url }}" class="project strobo-element">
-    {%- include image.html -%}
-    {%- include caption.html -%}
-  </a>
-  {%- endfor -%}
-{%- endfor -%}
+{% for project in site.projects %} {%- for image in project.front-page-images
+-%}
+<a href="{{ site.baseurl }}{{ project.url }}" class="project strobo-element">
+  {%- include image-third.html -%} {%- include caption.html -%}
+</a>
+{%- endfor -%} {%- endfor -%}
