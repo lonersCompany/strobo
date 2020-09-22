@@ -3,8 +3,8 @@
 
 const stroboGallery = (mainEl) => {
 
-  const mobilespeed = 500;
-  const desktopspeed = 200;
+  const mobilespeed = 1000;
+  const desktopspeed = 2000;
 
   const mainArray = Array.from(mainEl.children);
 

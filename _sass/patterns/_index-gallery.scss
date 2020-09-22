@@ -23,7 +23,6 @@
 
 .strobo-element {
 
-  opacity: 0;
 
   &:hover {
     opacity: 1;
@@ -33,10 +32,9 @@
   &.active {
     animation: flashtwo $short-animation-duration;
     opacity: 1;
-    z-index: 1;
+    z-index: 10;
 
     @media(min-width: $screen-md) {
-      opacity: 0;
       animation: flashtwo $base-animation-duration;
     }
   }
